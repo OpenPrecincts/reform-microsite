@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<section class="section">
+    <div class="container">
+    <h1 class="title is-1">{{ state.name }}</h1>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    <ul>
+        <li>{{ state.draws_congressional_lines }} draws congressional boundaries.</li>
+        <li>{{ state.draws_state_lines }} draws legislative boundaries.</li>
+    </ul>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    {{ state.legislative_control }}
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    <h2 class="title is-2">Process</h2>
+    {{ state.process }}
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    <h2 class="title is-2">Issues</h2>
+    {{ state.issues }}
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    <h2 class="title is-2">Actions</h2>
+    {{ state.actions }}
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    <h2 class="title is-2">Pitfalls</h2>
+    {{ state.pitfalls }}
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    <h2 class="title is-2">Contacts</h2>
+    {{ state.contacts }}
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+    Data last updated {{ state.last_updated|date:"P, F jS Y" }}.
+</div>
+</section>
+{% endblock %}
