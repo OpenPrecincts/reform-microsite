@@ -2,9 +2,9 @@ from django.db import models
 from markupfield.fields import MarkupField
 
 
-class StateInformation(models.Model):
+class State(models.Model):
+    abbreviation = models.CharField(max_length=2, primary_key=True)
     name = models.CharField(max_length=30)
-    abbreviation = models.CharField(max_length=2)
 
     draws_congressional_lines = models.CharField(max_length=300)
     draws_state_lines = models.CharField(max_length=300)
@@ -17,3 +17,6 @@ class StateInformation(models.Model):
     contacts = MarkupField(markup_type="markdown")
 
     last_updated = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name
