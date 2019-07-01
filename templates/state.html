@@ -3,8 +3,11 @@
 {% block body %}
 
 <section class="section">
-    <div class="container">
-    <h1 class="title is-1">{{ state.name }}</h1>
+<div class="container">
+    <h1 class="title is-1">
+        <span class="stateface stateface-replace stateface-{{ state.abbreviation.lower }}">{{ state.name }}</span>
+        {{ state.name }}
+    </h1>
 </div>
 </section>
 
