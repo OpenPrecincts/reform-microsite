@@ -1,4 +1,5 @@
 from django.db import models
+from django.forms import ModelForm
 from markupfield.fields import MarkupField
 
 
@@ -20,3 +21,17 @@ class State(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Comment(models.Model):
+    comment = models.TextField()
+    name = models.CharField(max_length=100)
+    from_email = models.EmailField("Email")
+    state = models.ForeignKey(State, related_name="comments", on_delete=models.PROTECT)
+    created = models.DateTimeField(auto_now_add=True)
+
+
+class CommentForm(ModelForm):
+    class Meta:
+        model = Comment
+        exclude = ["created"]

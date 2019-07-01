@@ -1,10 +1,23 @@
 from django.shortcuts import render, get_object_or_404
-from .models import State
+from django.contrib import messages
+from .models import State, CommentForm
 
 
 def state_page(request, abbr):
     state = get_object_or_404(State, pk=abbr.upper())
 
+    if request.method == "POST":
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            form.save()
+            form = CommentForm(initial={"state": abbr.upper()})
+            messages.success(request, "Comment submitted!  Thank you for your feedback!")
+        else:
+            messages.error(request, "Please review the errors & re-submit your comment.")
+    else:
+        form = CommentForm(initial={"state": abbr.upper()})
+
     return render(request, "state.html", {
         "state": state,
+        "comment_form": form,
     })

@@ -61,7 +61,24 @@
 
 <section id="comment-section">
     <h3 class="title is-3">Leave Feedback</h3>
-    <textarea rows=4 cols=100> </textarea>
+
+    <form method="POST" action=".">
+        {% csrf_token %}
+        {% for hidden in comment_form.hidden_fields %}
+            {{ hidden }}
+        {% endfor %}
+
+        {% for field in comment_form.visible_fields %}
+            {% if field.name == "state" %}
+                {{ field.as_hidden }}
+            {% else %}
+                {% include "_field.html" %}
+            {% endif %}
+        {% endfor %}
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+    </form>
 </section>
 
 </div>

@@ -34,6 +34,18 @@
   </div>
 </nav>
 
+{% for message in messages %}
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+    <div class="message is-danger">
+    {% else %}
+    <div class="message is-primary">
+    {% endif %}
+      <div class="message-header">
+          <p>{{ message }}</p>
+      </div>
+    </div>
+{% endfor %}
+
 {% block body %}
 {% endblock %}
 
