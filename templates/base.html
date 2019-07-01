@@ -13,8 +13,44 @@
 </head>
 <body>
 
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+        <span id="navbar-logo" style="font-weight: bold;">Princeton Gerrymandering Project</span>
+    </a>
+  </div>
+
+  <div class="navbar-menu is-active">
+    <div class="navbar-start">
+        <a class="navbar-item" href="/">
+        State Overview
+      </a>
+
+      <a class="navbar-item" href="#">
+        About
+      </a>
+
+    </div>
+  </div>
+</nav>
+
 {% block body %}
 {% endblock %}
+
+<footer class="footer">
+  <div class="content">
+      <div class="columns">
+          <div class="column footer-cc-license">
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <i class="fab fa-creative-commons"></i>
+                  <i class="fab fa-creative-commons-by"></i>
+                  <i class="fab fa-creative-commons-nc"></i>
+                  <i class="fab fa-creative-commons-sa"></i>
+              </a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+          </div>
+      </div>
+  </div>
+</footer>
 
 </body>
 </html>

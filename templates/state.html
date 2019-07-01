@@ -2,7 +2,9 @@
 
 {% block body %}
 
-<section class="section">
+<div id="state-grid">
+
+<section id="main-block">
 <div class="container">
     <h1 class="title is-1">
         <span class="stateface stateface-replace stateface-{{ state.abbreviation.lower }}">{{ state.name }}</span>
@@ -11,59 +13,56 @@
 </div>
 </section>
 
-<section class="section">
+<section id="summary-block">
 <div class="container">
     <ul>
         <li>{{ state.draws_congressional_lines }} draws congressional boundaries.</li>
         <li>{{ state.draws_state_lines }} draws legislative boundaries.</li>
+        <li>Legislative Control: {{ state.legislative_control }}</li>
+        <li>Last updated: {{ state.last_updated|date:"H:i F jS Y" }}</li>
     </ul>
 </div>
 </section>
 
-<section class="section">
-<div class="container">
-    {{ state.legislative_control }}
-</div>
-</section>
-
-<section class="section">
+<section>
 <div class="container">
     <h2 class="title is-2">Process</h2>
     {{ state.process }}
 </div>
 </section>
 
-<section class="section">
+<section>
 <div class="container">
     <h2 class="title is-2">Issues</h2>
     {{ state.issues }}
 </div>
 </section>
 
-<section class="section">
+<section>
 <div class="container">
     <h2 class="title is-2">Actions</h2>
     {{ state.actions }}
 </div>
 </section>
 
-<section class="section">
+<section>
 <div class="container">
     <h2 class="title is-2">Pitfalls</h2>
     {{ state.pitfalls }}
 </div>
 </section>
 
-<section class="section">
+<section>
 <div class="container">
     <h2 class="title is-2">Contacts</h2>
     {{ state.contacts }}
 </div>
 </section>
 
-<section class="section">
-<div class="container">
-    Data last updated {{ state.last_updated|date:"P, F jS Y" }}.
-</div>
+<section id="comment-section">
+    <h3 class="title is-3">Leave Feedback</h3>
+    <textarea rows=4 cols=100> </textarea>
 </section>
+
+</div>
 {% endblock %}
