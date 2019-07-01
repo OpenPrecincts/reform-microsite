@@ -5,6 +5,7 @@ from .models import State, CommentForm
 
 def state_page(request, abbr):
     state = get_object_or_404(State, pk=abbr.upper())
+    reveal_form = False
 
     if request.method == "POST":
         form = CommentForm(request.POST)
@@ -14,10 +15,12 @@ def state_page(request, abbr):
             messages.success(request, "Comment submitted!  Thank you for your feedback!")
         else:
             messages.error(request, "Please review the errors & re-submit your comment.")
+            reveal_form = True
     else:
         form = CommentForm(initial={"state": abbr.upper()})
 
     return render(request, "state.html", {
         "state": state,
         "comment_form": form,
+        "reveal_form": reveal_form,
     })

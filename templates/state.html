@@ -60,9 +60,11 @@
 </section>
 
 <section id="comment-section">
-    <h3 class="title is-3">Leave Feedback</h3>
+    <div class="control">
+      <button class="button is-link" id="leave-feedback">Leave Feedback</button>
+    </div>
 
-    <form method="POST" action=".">
+    <form method="POST" action="." id="feedback-form">
         {% csrf_token %}
         {% for hidden in comment_form.hidden_fields %}
             {{ hidden }}
@@ -82,4 +84,19 @@
 </section>
 
 </div>
+
+<script>
+    const ff = document.getElementById("feedback-form");
+    const lf = document.getElementById("leave-feedback");
+{% if not reveal_form %}
+    ff.style.display = "none";
+    lf.onclick = function() {
+        ff.style.display = "block";
+        lf.style.display = "none";
+    };
+{% else %}
+    lf.style.display = "none";
+{% endif %}
+</script>
+
 {% endblock %}
