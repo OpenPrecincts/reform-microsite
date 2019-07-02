@@ -59,7 +59,9 @@
 </div>
 </section>
 
+
 <section id="comment-section">
+    <hr />
     <div class="control">
       <button class="button is-link" id="leave-feedback">Leave Feedback</button>
     </div>
@@ -92,6 +94,7 @@
     ff.style.display = "none";
     lf.onclick = function() {
         ff.style.display = "block";
+        ff.className = "fadein";
         lf.style.display = "none";
     };
 {% else %}

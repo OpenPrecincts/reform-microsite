@@ -15,6 +15,7 @@
         width: 900px;
         margin: auto;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     #comment-section {
         grid-column-start: 1;
@@ -22,25 +23,38 @@
     }
 }
 
+li {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+#summary-block {
+}
+
+.fadein {
+    animation: fadein 2s;
+    display: block;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* state map */
 path:hover {
     fill-opacity: .7;
 }
-
-/* Style for Custom Tooltip */
-div.tooltip {
+.tooltip {
     position: absolute;
     text-align: center;
-    width: 60px;
+    width: 100px;
     height: 28px;
     padding: 2px;
     font: 12px sans-serif;
     background: white;
     border: 0px;
-    border-radius: 8px;
     pointer-events: none;
 }
-
-/* Legend Position Style */
 .legend {
     font: 11px sans-serif;
     position:absolute;
