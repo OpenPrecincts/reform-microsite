@@ -16,7 +16,9 @@
 <section id="summary-block">
 <div class="container">
     <ul>
-        <li>{{ state.draws_congressional_lines }} draws congressional boundaries.</li>
+        {% if state.draws_congressional_lines %}
+            <li>{{ state.draws_congressional_lines }} draws congressional boundaries.</li>
+        {% endif %}
         <li>{{ state.draws_state_lines }} draws legislative boundaries.</li>
         <li>Legislative Control: {{ state.legislative_control }}</li>
         <li>Last updated: {{ state.last_updated|date:"H:i F jS Y" }}</li>
