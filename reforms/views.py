@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
+from django.conf import settings
 from .models import State, CommentForm
 
 
@@ -14,9 +15,9 @@ def index(request):
 def state_page(request, abbr):
     if len(abbr) > 2:
         state = get_object_or_404(State, name__iexact=abbr)
-        return redirect(f"/{state.abbreviation.lower()}/")
+        return redirect("/" + settings.PREFIX + f"{state.abbreviation.lower()}/")
     if not abbr.islower():
-        return redirect(f"/{abbr.lower()}/")
+        return redirect("/" + settings.PREFIX + f"{abbr.lower()}/")
     state = get_object_or_404(State, pk=abbr.upper())
     reveal_form = False
 
