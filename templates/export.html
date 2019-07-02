@@ -1,0 +1,38 @@
+<states>
+{% for state in states %}
+<state>
+<h1>{{ state.name }}</h1>
+<ul>
+    <li>{{ state.draws_congressional_lines }} draws congressional boundaries.</li>
+    <li>{{ state.draws_state_lines }} draws legislative boundaries.</li>
+    <li>Legislative Control: {{ state.legislative_control }}</li>
+</ul>
+
+<section>
+<h2>Process</h2>
+<p> {{ state.process }} </p>
+</section>
+
+<section>
+<h2>Issues</h2>
+<p> {{ state.issues }} </p>
+</section>
+
+<section>
+<h2>Actions</h2>
+<p> {{ state.actions }} </p>
+</section>
+
+<section>
+<h2>Pitfalls</h2>
+<p> {{ state.pitfalls }} </p>
+</section>
+
+<section>
+<h2>Contacts</h2>
+<p> {{ state.contacts }} </p>
+</section>
+
+</state>
+{% endfor %}
+</states>

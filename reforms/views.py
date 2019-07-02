@@ -37,3 +37,11 @@ def state_page(request, abbr):
         "comment_form": form,
         "reveal_form": reveal_form,
     })
+
+
+def export(request):
+    states = [State.objects.get(pk="AL"), State.objects.get(pk="NC")] * 25
+    # states = [State.objects.all().order_by("name")]
+    return render(request, "export.html", {
+        "states": states,
+    })
