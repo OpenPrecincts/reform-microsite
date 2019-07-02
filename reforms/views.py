@@ -1,9 +1,11 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from .models import State, CommentForm
 
 
 def state_page(request, abbr):
+    if not abbr.islower():
+        return redirect(f"/{abbr.lower()}/")
     state = get_object_or_404(State, pk=abbr.upper())
     reveal_form = False
 
