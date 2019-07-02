@@ -20,6 +20,9 @@
         {% endif %}
         <li>{{ state.draws_state_lines }} draws legislative boundaries.</li>
         <li>Legislative Control: {{ state.legislative_control }}</li>
+        {% if state.latest_test_url %}
+            <li><a href="{{ state.latest_test_url }}">Tests of recent elections</a></li>
+        {% endif %}
         <li>Last updated: {{ state.last_updated|date:"H:i F jS Y" }}</li>
     </ul>
 </section>
