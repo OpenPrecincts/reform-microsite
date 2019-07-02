@@ -29,6 +29,11 @@ li {
 }
 
 #summary-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#summary-block div ul {
 }
 
 .fadein {
