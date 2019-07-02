@@ -27,6 +27,9 @@ li {
     list-style-type: disc;
     margin-left: 2rem;
 }
+.container p {
+    padding-bottom: 1rem;
+}
 
 #summary-block {
     display: flex;
