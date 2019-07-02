@@ -1,7 +1,5 @@
 from django.contrib import admin
-from django.conf import settings
-from django.urls import path, include
-from django.views.generic.base import TemplateView
+from django.urls import path
 from reforms import views
 
 admin.site.site_header = "PGP Reforms Admin"
