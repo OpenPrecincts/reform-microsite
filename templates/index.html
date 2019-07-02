@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block body %}
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+// based on http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922
+const width = 960;
+const height = 500;
+const projection = d3.geo.albersUsa()
+                   .translate([width/2, height/2])
+                   .scale([1000]);
+const path = d3.geo.path().projection(projection);
+
+// Define linear scale for output
+var color = d3.scale.linear()
+              .range(["rgb(213,222,217)","rgb(69,173,168)","rgb(84,36,55)","rgb(217,91,67)"]);
+var legendText = ["Cities Lived", "States Lived", "States Visited", "Nada"];
+
+var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+var div = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+const data = {
+    "Alabama": 1,
+    "Alaska": 2,
+};
+
+d3.json("us-states", function(json) {
+    for (var i = 0; i < data.length; i++) {
+        var dataState = data[i].state;
+        var dataValue = data[i].visited;
+
+        // Find the corresponding state inside the GeoJSON
+        for (var j = 0; j < json.features.length; j++)  {
+            var jsonState = json.features[j].properties.name;
+
+            if (dataState === jsonState) {
+                json.features[j].properties.visited = dataValue;
+                break;
+            }
+        }
+    }
+
+    svg.selectAll("path")
+        .data(json.features)
+        .enter()
+        .append("path")
+        .attr("d", path)
+        .style("stroke", "#fff")
+        .style("stroke-width", "1")
+        .style("fill", function(d) {
+
+        var value = d.properties.visited;
+        if (value) {
+            return color(value);
+        } else {
+            return "rgb(200,200,200)";
+        }
+    })
+    .on("mouseover", function(d) {
+        div.transition()
+           .duration(200)
+           .style("opacity", .9);
+        div.html("<b>" + d.properties.name + "</b>")
+           .style("left", (d3.event.pageX) + "px")
+           .style("top", (d3.event.pageY - 28) + "px");
+    })
+    .on("mouseout", function(d) {
+        div.transition()
+           .duration(500)
+           .style("opacity", 0);
+    })
+    .on("click", function(d) {
+        document.location = "/" + d.properties.name;
+    });
+});
+
+// Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
+var legend = d3.select("body").append("svg")
+                .attr("class", "legend")
+                .attr("width", 140)
+                .attr("height", 200)
+                .selectAll("g")
+                .data(color.domain().slice().reverse())
+                .enter()
+                .append("g")
+                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+legend.append("rect")
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+legend.append("text")
+      .data(legendText)
+      .attr("x", 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .text(function(d) { return d; });
+</script>
+{% endblock %}

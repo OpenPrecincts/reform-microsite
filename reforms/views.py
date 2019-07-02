@@ -3,7 +3,18 @@ from django.contrib import messages
 from .models import State, CommentForm
 
 
+def us_json(request):
+    return render(request, "us-states.json", {})
+
+
+def index(request):
+    return render(request, "index.html", {})
+
+
 def state_page(request, abbr):
+    if len(abbr) > 2:
+        state = get_object_or_404(State, name__iexact=abbr)
+        return redirect(f"/{state.abbreviation.lower()}/")
     if not abbr.islower():
         return redirect(f"/{abbr.lower()}/")
     state = get_object_or_404(State, pk=abbr.upper())

@@ -21,3 +21,29 @@
         grid-column-end: 3;
     }
 }
+
+path:hover {
+    fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: white;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+/* Legend Position Style */
+.legend {
+    font: 11px sans-serif;
+    position:absolute;
+    left:800px;
+    top:350px;
+}
