@@ -10,6 +10,7 @@ class State(models.Model):
     draws_congressional_lines = models.CharField(max_length=300, blank=True)
     draws_state_lines = models.CharField(max_length=300, blank=True)
     legislative_control = models.CharField(max_length=300, blank=True)
+    latest_test_url = models.URLField(blank=True)
 
     process = MarkupField(markup_type="markdown", blank=True)
     issues = MarkupField(markup_type="markdown", blank=True)
