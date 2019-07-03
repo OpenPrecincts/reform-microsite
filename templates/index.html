@@ -41,9 +41,12 @@ const color = [
 ];
 
 const state_data = JSON.parse(document.getElementById('state-data').textContent);
-var legislative_control = {};
+var state_data_lookup = {};
 for(var d of state_data) {
-    legislative_control[d.name] = d.legislative_control;
+    state_data_lookup[d.name] = {
+        legislative_control: d.legislative_control,
+        action: d.short_action,
+    }
 }
 
 // TODO: move this to database
@@ -113,7 +116,8 @@ d3.json("us-states", function(json) {
            .style("opacity", .9);
         div.html(
             "<b>" + d.properties.name + "</b><br />" +
-            "<b>Legislative Control: </b>" + legislative_control[d.properties.name]
+            "<b>Legislative Control: </b>" + state_data_lookup[d.properties.name].legislative_control + "<br />" +
+            "<b>Action: </b>" + state_data_lookup[d.properties.name].action + "<br />"
         )
            .style("left", (d3.event.pageX) + "px")
            .style("top", (d3.event.pageY - 28) + "px");
