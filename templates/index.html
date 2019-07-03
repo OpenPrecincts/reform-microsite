@@ -2,23 +2,29 @@
 {% load static %}
 
 {% block body %}
+
+<div id="map">
+</div>
+
 <script>
 // based on http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922
-const width = 960;
-const height = 500;
+
+var width = 960;
+var height = 500;
+if(document.documentElement.clientWidth < 1224) {
+    width = document.documentElement.clientWidth - 100;
+    height = width * 0.5;
+}
 const projection = d3.geo.albersUsa()
                    .translate([width/2, height/2])
-                   .scale([1000]);
+                   .scale([width]);
 const path = d3.geo.path().projection(projection);
 
-// Define linear scale for output
-// var legendText = ["Cities Lived", "States Lived", "States Visited", "Nada"];
-
-var svg = d3.select("body")
+var svg = d3.select("#map")
             .append("svg")
             .attr("width", width)
             .attr("height", height);
-var div = d3.select("body")
+var div = d3.select("#maincontent")
             .append("div")
             .attr("class", "tooltip")
             .style("opacity", 0);
@@ -30,7 +36,7 @@ const color = [
    "#7d5dca", // purple
    "#b15cae", // magenta
    "#fbee65", // yellow
-   "#ff0000", // RED FIX
+   "#e8bb48", // orange
 ];
 
 const state_statuses = {
@@ -71,9 +77,9 @@ const statuses = [
     "independent commission",
     "other advisory/commission",
     "proposed independent commission",
-    "divided or potentially divided government",
+    "divided or potentially divided gov't.",
     "state court",
-    "divided or potentially divided / state court",
+    "potentially divided / state court",
 ];
 
 d3.json("us-states", function(json) {
@@ -112,10 +118,8 @@ d3.json("us-states", function(json) {
 });
 
 // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-var legend = d3.select("body").append("svg")
+var legend = d3.select("#map").append("svg")
                 .attr("class", "legend")
-                .attr("width", 140)
-                .attr("height", 200)
                 .selectAll("g")
                 .data(color)
                 .enter()

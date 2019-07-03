@@ -1,21 +1,34 @@
+#maincontent {
+    margin: 40px 40px 40px 40px;
+}
 #state-grid {
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 10px;
     grid-column-gap: 20px;
-    margin: 40px 40px 40px 40px;
+}
+#map {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
 }
 
 @media only screen  and (min-width : 1224px) {
+    #maincontent {
+        width: 1000px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     #state-grid {
         display: grid;
         grid-template-columns: auto auto;
         grid-row-gap: 20px;
         grid-column-gap: 40px;
-        width: 1000px;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
+    }
+    #map {
+        display: grid;
+        grid-template-columns: auto;
     }
     #comment-section {
         grid-column-start: 1;
@@ -64,8 +77,5 @@ path:hover {
     pointer-events: none;
 }
 .legend {
-    font: 11px sans-serif;
-    position:absolute;
-    left:800px;
-    top:350px;
+    justify-self: end;
 }
