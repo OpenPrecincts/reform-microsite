@@ -6,6 +6,8 @@ install: pip install flake8 ansible
 notifications:
     email:
         - jpturk@princeton.edu
+addons:
+  ssh_known_hosts: reform.openprecincts.org
 jobs:
   include:
     - stage: test
