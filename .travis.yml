@@ -4,16 +4,16 @@ sudo: false
 python: 3.6
 install: pip install flake8 ansible
 notifications:
-    email:
-        - jpturk@princeton.edu
+  email:
+  - jpturk@princeton.edu
 addons:
   ssh_known_hosts: reform.openprecincts.org
 jobs:
   include:
-    - stage: test
-      script: flake8 scripts
-      name: "Flake8 Python"
-    - stage: deploy
-      script: 
-        - ansible-galaxy install -r ansible/requirements.yml
-        - sh ansible/deploy.sh
+  - stage: deploy
+    script:
+    - ansible-galaxy install -r ansible/requirements.yml
+    - sh ansible/deploy.sh
+env:
+  global:
+    secure: OBFHuCmy7GOGfggXnvNiRJo/qLL3T07a2LZA43KfcwWaj+ELvNEdrxZMfYCppIDWhk3rhz0AcSZ5MSzWK+q9PWtOeps9i4okQGEgKzC8aU0v0QHkMV4a0RjNOmOCHF5MnMPECLQfYENWvurA7Qkj20Kbd9rltWkPkJvABF7HtQgSPotKRnsbV+rCLUa+lyQP1YGIiN49iObwXhP26BNEjpdz9WgZoqSapDWJBsWeqr9ndhooHKuNylotafCRLYxFSALUSG0g7b7tdj42MWqoKYe1akURGAQMm3a4o4Qq/WlrdxpigKQbRpVIDpVmsnCG4I/9P2WYpo5NeLlepvSw/GSJjpzi7t9nsXnb9OTawGYELyQW/FENU3TkI0c4ju3vfT2VtUjiMJLHgpus/xdJcPbEWf/EgH2wUnPVyCdXnCQXff4qTfiqf00LJl0Nrwt/3nUzx8D3RD9sDMKtjH/euUYkIwpZe3a6CNZ2GhZE5nPqMogrU15e9kL+lZeTY+MGZpoHQLJai4w+3OdzrY1SoVFrV0A5mn3n7K/5//0DF8Xue6EdHxgBbEn+RzJferLtbcgeYwNR+ba00f29sj6gY+jBjjgZpWqE5xJjWc5HANHux2stCJxIZWi69IR8wiJ1vJQ7HkMb9k08C68YPAZ7OYyNp3fMePQrcDnnfmWU4tI=
