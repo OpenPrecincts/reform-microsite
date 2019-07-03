@@ -14,3 +14,4 @@ jobs:
     - stage: deploy
       script: 
         - ansible-galaxy install -r ansible/requirements.yml
+        - ./ansible/deploy.sh
