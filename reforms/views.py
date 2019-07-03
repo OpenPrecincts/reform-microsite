@@ -41,8 +41,8 @@ def state_page(request, abbr):
 
 
 def export(request):
-    states = [State.objects.get(pk="AL"), State.objects.get(pk="NC")] * 25
-    # states = [State.objects.all().order_by("name")]
-    return render(request, "export.html", {
-        "states": states,
-    })
+    states = list(State.objects.all().order_by("name"))
+    resp = render(request, "export.html", {"states": states},
+                  content_type="text/xml")
+    resp['Content-Disposition'] = 'attachment; filename="export.xml"'
+    return resp
