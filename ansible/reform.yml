@@ -1,0 +1,17 @@
+---
+- name: Install reform
+  hosts: reform
+  user: ubuntu
+  become: yes
+  roles:
+    - role: django-uwsgi-nginx
+      vars:
+        - git_repository: https://github.com/jamesturk/reform-microsite.git
+          user: reform
+          directory: reform
+          wsgi_module: web.wsgi
+          domain_name: reform.openprecincts.org
+          celery: false
+    - role: reform
+      vars:
+        - user: reform

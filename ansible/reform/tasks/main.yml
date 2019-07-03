@@ -1,0 +1,17 @@
+---
+- name: write nginx template
+  template: src=nginx.j2 dest=/etc/nginx/sites-enabled/{{ user }}
+  notify:
+    - restart nginx
+- name: collectstatic
+  command: /home/{{ user }}/virt/bin/python manage.py collectstatic --settings=web.settings --noinput chdir=/home/{{ user }}/src/reform
+  environment: '{{django_environment}}'
+  notify: 
+    - restart django-application
+    - restart nginx
+- name: migrate
+  command: /home/{{ user }}/virt/bin/python manage.py migrate --settings=web.settings --noinput chdir=/home/{{ user }}/src/reform
+  environment: '{{django_environment}}'
+  notify: 
+    - restart django-application
+    - restart nginx
