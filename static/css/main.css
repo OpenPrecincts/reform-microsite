@@ -16,6 +16,7 @@ a:hover, .burnt {
 
 #maincontent {
     margin: 40px 40px 40px 40px;
+    padding-top: 30px;
 }
 #state-grid {
     display: grid;
@@ -35,6 +36,7 @@ a:hover, .burnt {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
+        padding-top: 30px;
     }
     #state-grid {
         display: grid;
