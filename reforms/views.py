@@ -9,7 +9,8 @@ def us_json(request):
 
 
 def index(request):
-    return render(request, "index.html", {})
+    state_data = list(State.objects.values("name", "legislative_control"))
+    return render(request, "index.html", {"state_data": state_data})
 
 
 def state_page(request, abbr):

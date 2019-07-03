@@ -6,6 +6,7 @@
 <div id="map">
 </div>
 
+{{ state_data|json_script:"state-data" }}
 <script>
 // based on http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922
 
@@ -39,6 +40,13 @@ const color = [
    "#e8bb48", // orange
 ];
 
+const state_data = JSON.parse(document.getElementById('state-data').textContent);
+var legislative_control = {};
+for(var d of state_data) {
+    legislative_control[d.name] = d.legislative_control;
+}
+
+// TODO: move this to database
 const state_statuses = {
     "Washington": 1,
     "California": 1,
@@ -103,7 +111,10 @@ d3.json("us-states", function(json) {
         div.transition()
            .duration(200)
            .style("opacity", .9);
-        div.html("<b>" + d.properties.name + "</b>")
+        div.html(
+            "<b>" + d.properties.name + "</b><br />" +
+            "<b>Legislative Control: </b>" + legislative_control[d.properties.name]
+        )
            .style("left", (d3.event.pageX) + "px")
            .style("top", (d3.event.pageY - 28) + "px");
     })
