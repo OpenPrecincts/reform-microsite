@@ -1,0 +1,16 @@
+dist: xenial
+language: python
+sudo: false
+python: 3.6
+install: pip install flake8 ansible
+notifications:
+    email:
+        - jpturk@princeton.edu
+jobs:
+  include:
+    - stage: test
+      script: flake8 scripts
+      name: "Flake8 Python"
+    - stage: deploy
+      script: 
+        - ansible-galaxy install -r ansible/requirements.yml
