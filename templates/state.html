@@ -15,7 +15,7 @@
 
 <section id="summary-block">
     <ul>
-        {% if state.draws_congressional_lines %}
+        {% if state.draws_congressional_lines|length %}
             <li>{{ state.draws_congressional_lines }} draws congressional boundaries.</li>
         {% endif %}
         <li>{{ state.draws_state_lines }} draws legislative boundaries.</li>
@@ -27,12 +27,15 @@
     </ul>
 </section>
 
+
+{% if state.process.raw %}
 <section>
 <div class="container">
     <h2 class="title is-2">Process</h2>
     {{ state.process }}
 </div>
 </section>
+{% endif %}
 
 <section>
 <div class="container">
@@ -45,19 +48,25 @@
 <div class="container">
     <h2 class="title is-2">Actions</h2>
     {{ state.actions }}
+    {% if not state.actions.raw %} Once redistricting starts, use the public comment period! With data and free software, offer your communities of interest and analyze draft plans. {% endif %}
 </div>
 </section>
 
+{% if state.pitfalls.raw %}
 <section>
 <div class="container">
     <h2 class="title is-2">Pitfalls</h2>
     {{ state.pitfalls }}
 </div>
 </section>
+{% endif %}
 
 <section>
 <div class="container">
     <h2 class="title is-2">Contacts</h2>
+    {% if not state.contacts.raw %}
+    Please let us know about your reform organization!
+    {% endif %}
     {{ state.contacts }}
 </div>
 </section>
