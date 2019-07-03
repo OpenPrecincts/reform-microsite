@@ -49,7 +49,9 @@ li {
     flex-direction: column;
     justify-content: flex-end;
 }
-#summary-block div ul {
+#summary-block ul li {
+    list-style-type: none;
+    text-align: right;
 }
 
 .fadein {
