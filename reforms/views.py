@@ -1,3 +1,4 @@
+import re
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
@@ -9,7 +10,10 @@ def us_json(request):
 
 
 def index(request):
-    state_data = list(State.objects.values("name", "legislative_control"))
+    state_data = list(State.objects.values("name", "legislative_control", "actions"))
+    for s in state_data:
+        action = re.split(r"\.\s", s["actions"])[0]
+        s["short_action"] = action + "." if action else ""
     return render(request, "index.html", {"state_data": state_data})
 
 
