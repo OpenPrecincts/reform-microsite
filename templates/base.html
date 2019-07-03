@@ -23,20 +23,19 @@
 </head>
 <body>
 
-<nav class="navbar is-light" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="http://gerrymander.princeton.edu">
-        <span id="navbar-logo" style="font-weight: bold;">Princeton Gerrymandering Project</span>
-    </a>
-  </div>
-
-  <div class="navbar-menu is-active">
-    <div class="navbar-start">
-        <a class="navbar-item" href="/reforms2019/">
-        State Overview
-      </a>
+<nav id="menu">
+    <a href="/"><div id="site-title"><img id="logo" src="{% static 'android-chrome-192x192.png' %}"/><div id="site-title-text"><h3>Princeton Gerrymandering Project</h3><p>Practical bug fixes for democracy</p></div>
+    </div></a>
+    <div id="menu-mobile" onclick="toggleMobileMenu()">&#9776;</div>
+    <div id="menu-items">
+        <a href="/tests" class="menu-item">Tests</a> 
+        <a href="/reforms2019" class="menu-item">State-Level Reforms</a> 
+        <a href="/resources" class="menu-item">Resources</a>
+        <a href="/blog" class="menu-item">Blog</a>
+        <a href="/team" class="menu-item">Team</a>
+        <a href="http://election.princeton.edu/2018/05/31/support-our-gerrymandering-work/" target="_blank" class="menu-item donate-link">Donate!</a>
     </div>
-  </div>
+    <div class="clear"></div>
 </nav>
 
 {% for message in messages %}
