@@ -5,19 +5,25 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('reforms', '0004_auto_20190701_1719'),
-    ]
+    dependencies = [("reforms", "0004_auto_20190701_1719")]
 
     operations = [
         migrations.CreateModel(
-            name='Comment',
+            name="Comment",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('comment', models.TextField()),
-                ('from_email', models.EmailField(max_length=254)),
-                ('name', models.CharField(max_length=100)),
-                ('created', models.DateTimeField(auto_now_add=True)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("comment", models.TextField()),
+                ("from_email", models.EmailField(max_length=254)),
+                ("name", models.CharField(max_length=100)),
+                ("created", models.DateTimeField(auto_now_add=True)),
             ],
-        ),
+        )
     ]

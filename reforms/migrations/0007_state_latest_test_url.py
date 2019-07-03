@@ -5,14 +5,12 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('reforms', '0006_auto_20190701_1930'),
-    ]
+    dependencies = [("reforms", "0006_auto_20190701_1930")]
 
     operations = [
         migrations.AddField(
-            model_name='state',
-            name='latest_test_url',
+            model_name="state",
+            name="latest_test_url",
             field=models.URLField(blank=True),
-        ),
+        )
     ]

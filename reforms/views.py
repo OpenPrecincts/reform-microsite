@@ -26,23 +26,26 @@ def state_page(request, abbr):
         if form.is_valid():
             form.save()
             form = CommentForm(initial={"state": abbr.upper()})
-            messages.success(request, "Comment submitted!  Thank you for your feedback!")
+            messages.success(
+                request, "Comment submitted!  Thank you for your feedback!"
+            )
         else:
-            messages.error(request, "Please review the errors & re-submit your comment.")
+            messages.error(
+                request, "Please review the errors & re-submit your comment."
+            )
             reveal_form = True
     else:
         form = CommentForm(initial={"state": abbr.upper()})
 
-    return render(request, "state.html", {
-        "state": state,
-        "comment_form": form,
-        "reveal_form": reveal_form,
-    })
+    return render(
+        request,
+        "state.html",
+        {"state": state, "comment_form": form, "reveal_form": reveal_form},
+    )
 
 
 def export(request):
     states = list(State.objects.all().order_by("name"))
-    resp = render(request, "export.html", {"states": states},
-                  content_type="text/xml")
-    resp['Content-Disposition'] = 'attachment; filename="export.xml"'
+    resp = render(request, "export.html", {"states": states}, content_type="text/xml")
+    resp["Content-Disposition"] = 'attachment; filename="export.xml"'
     return resp

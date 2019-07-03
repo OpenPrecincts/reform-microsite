@@ -1,8 +1,9 @@
 from django.db import migrations
 import us
 
+
 def forwards(apps, schema_editor):
-    State = apps.get_model('reforms', 'State')
+    State = apps.get_model("reforms", "State")
 
     for state in us.states.STATES:
         State.objects.create(name=state.name, abbreviation=state.abbr)
@@ -10,10 +11,6 @@ def forwards(apps, schema_editor):
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ("reforms", "0001_initial"),
-    ]
+    dependencies = [("reforms", "0001_initial")]
 
-    operations = [
-        migrations.RunPython(forwards),
-    ]
+    operations = [migrations.RunPython(forwards)]

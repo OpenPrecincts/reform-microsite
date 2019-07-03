@@ -8,35 +8,107 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='State',
+            name="State",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=30)),
-                ('abbreviation', models.CharField(max_length=2)),
-                ('draws_congressional_lines', models.CharField(max_length=300)),
-                ('draws_state_lines', models.CharField(max_length=300)),
-                ('legislative_control', models.CharField(max_length=300)),
-                ('process', markupfield.fields.MarkupField(rendered_field=True)),
-                ('process_markup_type', models.CharField(choices=[('', '--'), ('html', 'HTML'), ('plain', 'Plain'), ('markdown', 'Markdown')], default='markdown', editable=False, max_length=30)),
-                ('issues', markupfield.fields.MarkupField(rendered_field=True)),
-                ('_process_rendered', models.TextField(editable=False)),
-                ('issues_markup_type', models.CharField(choices=[('', '--'), ('html', 'HTML'), ('plain', 'Plain'), ('markdown', 'Markdown')], default='markdown', editable=False, max_length=30)),
-                ('actions', markupfield.fields.MarkupField(rendered_field=True)),
-                ('_issues_rendered', models.TextField(editable=False)),
-                ('actions_markup_type', models.CharField(choices=[('', '--'), ('html', 'HTML'), ('plain', 'Plain'), ('markdown', 'Markdown')], default='markdown', editable=False, max_length=30)),
-                ('pitfalls', markupfield.fields.MarkupField(rendered_field=True)),
-                ('_actions_rendered', models.TextField(editable=False)),
-                ('pitfalls_markup_type', models.CharField(choices=[('', '--'), ('html', 'HTML'), ('plain', 'Plain'), ('markdown', 'Markdown')], default='markdown', editable=False, max_length=30)),
-                ('contacts', markupfield.fields.MarkupField(rendered_field=True)),
-                ('_pitfalls_rendered', models.TextField(editable=False)),
-                ('contacts_markup_type', models.CharField(choices=[('', '--'), ('html', 'HTML'), ('plain', 'Plain'), ('markdown', 'Markdown')], default='markdown', editable=False, max_length=30)),
-                ('last_updated', models.DateTimeField(auto_now=True)),
-                ('_contacts_rendered', models.TextField(editable=False)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=30)),
+                ("abbreviation", models.CharField(max_length=2)),
+                ("draws_congressional_lines", models.CharField(max_length=300)),
+                ("draws_state_lines", models.CharField(max_length=300)),
+                ("legislative_control", models.CharField(max_length=300)),
+                ("process", markupfield.fields.MarkupField(rendered_field=True)),
+                (
+                    "process_markup_type",
+                    models.CharField(
+                        choices=[
+                            ("", "--"),
+                            ("html", "HTML"),
+                            ("plain", "Plain"),
+                            ("markdown", "Markdown"),
+                        ],
+                        default="markdown",
+                        editable=False,
+                        max_length=30,
+                    ),
+                ),
+                ("issues", markupfield.fields.MarkupField(rendered_field=True)),
+                ("_process_rendered", models.TextField(editable=False)),
+                (
+                    "issues_markup_type",
+                    models.CharField(
+                        choices=[
+                            ("", "--"),
+                            ("html", "HTML"),
+                            ("plain", "Plain"),
+                            ("markdown", "Markdown"),
+                        ],
+                        default="markdown",
+                        editable=False,
+                        max_length=30,
+                    ),
+                ),
+                ("actions", markupfield.fields.MarkupField(rendered_field=True)),
+                ("_issues_rendered", models.TextField(editable=False)),
+                (
+                    "actions_markup_type",
+                    models.CharField(
+                        choices=[
+                            ("", "--"),
+                            ("html", "HTML"),
+                            ("plain", "Plain"),
+                            ("markdown", "Markdown"),
+                        ],
+                        default="markdown",
+                        editable=False,
+                        max_length=30,
+                    ),
+                ),
+                ("pitfalls", markupfield.fields.MarkupField(rendered_field=True)),
+                ("_actions_rendered", models.TextField(editable=False)),
+                (
+                    "pitfalls_markup_type",
+                    models.CharField(
+                        choices=[
+                            ("", "--"),
+                            ("html", "HTML"),
+                            ("plain", "Plain"),
+                            ("markdown", "Markdown"),
+                        ],
+                        default="markdown",
+                        editable=False,
+                        max_length=30,
+                    ),
+                ),
+                ("contacts", markupfield.fields.MarkupField(rendered_field=True)),
+                ("_pitfalls_rendered", models.TextField(editable=False)),
+                (
+                    "contacts_markup_type",
+                    models.CharField(
+                        choices=[
+                            ("", "--"),
+                            ("html", "HTML"),
+                            ("plain", "Plain"),
+                            ("markdown", "Markdown"),
+                        ],
+                        default="markdown",
+                        editable=False,
+                        max_length=30,
+                    ),
+                ),
+                ("last_updated", models.DateTimeField(auto_now=True)),
+                ("_contacts_rendered", models.TextField(editable=False)),
             ],
-        ),
+        )
     ]

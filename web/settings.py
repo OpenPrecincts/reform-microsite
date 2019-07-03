@@ -37,9 +37,7 @@ else:
     DOMAIN = "http://localhost:8000"
     EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
-DATABASE_URL = os.environ.get(
-    "DATABASE_URL", "postgres://localhost/reforms"
-)
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://localhost/reforms")
 DATABASES = {"default": dj_database_url.parse(DATABASE_URL)}
 CONN_MAX_AGE = 60
 
@@ -67,9 +65,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-AUTHENTICATION_BACKENDS = [
-    "django.contrib.auth.backends.ModelBackend",
-]
+AUTHENTICATION_BACKENDS = ["django.contrib.auth.backends.ModelBackend"]
 
 ROOT_URLCONF = "web.urls"
 

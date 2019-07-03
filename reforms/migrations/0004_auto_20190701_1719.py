@@ -6,49 +6,47 @@ import markupfield.fields
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('reforms', '0003_auto_20190701_1540'),
-    ]
+    dependencies = [("reforms", "0003_auto_20190701_1540")]
 
     operations = [
         migrations.AlterField(
-            model_name='state',
-            name='actions',
+            model_name="state",
+            name="actions",
             field=markupfield.fields.MarkupField(blank=True, rendered_field=True),
         ),
         migrations.AlterField(
-            model_name='state',
-            name='contacts',
+            model_name="state",
+            name="contacts",
             field=markupfield.fields.MarkupField(blank=True, rendered_field=True),
         ),
         migrations.AlterField(
-            model_name='state',
-            name='draws_congressional_lines',
+            model_name="state",
+            name="draws_congressional_lines",
             field=models.CharField(blank=True, max_length=300),
         ),
         migrations.AlterField(
-            model_name='state',
-            name='draws_state_lines',
+            model_name="state",
+            name="draws_state_lines",
             field=models.CharField(blank=True, max_length=300),
         ),
         migrations.AlterField(
-            model_name='state',
-            name='issues',
+            model_name="state",
+            name="issues",
             field=markupfield.fields.MarkupField(blank=True, rendered_field=True),
         ),
         migrations.AlterField(
-            model_name='state',
-            name='legislative_control',
+            model_name="state",
+            name="legislative_control",
             field=models.CharField(blank=True, max_length=300),
         ),
         migrations.AlterField(
-            model_name='state',
-            name='pitfalls',
+            model_name="state",
+            name="pitfalls",
             field=markupfield.fields.MarkupField(blank=True, rendered_field=True),
         ),
         migrations.AlterField(
-            model_name='state',
-            name='process',
+            model_name="state",
+            name="process",
             field=markupfield.fields.MarkupField(blank=True, rendered_field=True),
         ),
     ]

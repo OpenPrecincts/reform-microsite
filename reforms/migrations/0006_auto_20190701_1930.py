@@ -6,20 +6,23 @@ import django.db.models.deletion
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('reforms', '0005_comment'),
-    ]
+    dependencies = [("reforms", "0005_comment")]
 
     operations = [
         migrations.AddField(
-            model_name='comment',
-            name='state',
-            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.PROTECT, related_name='comments', to='reforms.State'),
+            model_name="comment",
+            name="state",
+            field=models.ForeignKey(
+                default=1,
+                on_delete=django.db.models.deletion.PROTECT,
+                related_name="comments",
+                to="reforms.State",
+            ),
             preserve_default=False,
         ),
         migrations.AlterField(
-            model_name='comment',
-            name='from_email',
-            field=models.EmailField(max_length=254, verbose_name='Email'),
+            model_name="comment",
+            name="from_email",
+            field=models.EmailField(max_length=254, verbose_name="Email"),
         ),
     ]
