@@ -4,12 +4,13 @@
 {% block body %}
 <h1 style="text-align:center" class="title is-3">State-by-State Redistricting Reform: The Local Routes</h1>
 
+<h1>In all 50 states, there is a route to fair districts. 
+        But it depends on local conditions. 
+        Click on your state to learn more about how best to achieve fair districts.</h1>
+    
+
 <div id="map">
 </div>
-
-<h1>In all 50 states, there is a route to fair districts. 
-    But it depends on local conditions. 
-    Click on your state to learn more about how best to achieve fair districts.</h1>
 
 {{ state_data|json_script:"state-data" }}
 <script>
@@ -36,13 +37,13 @@ var div = d3.select("#maincontent")
             .style("opacity", 0);
 
 const color = [
-   "#cfcecc", // gray
+   "#ADD8E6", // gray
    "#94f654", // bright green
    "#d1fbc0", // mild green
    "#7d5dca", // purple
    "#b15cae", // magenta
    "#fbee65", // yellow
-   "#e8bb48", // orange
+//    "#e8bb48", // orange
 ];
 
 const state_data = JSON.parse(document.getElementById('state-data').textContent);
@@ -51,10 +52,19 @@ for(var d of state_data) {
     state_data_lookup[d.name] = {
         legislative_control: d.legislative_control,
         action: d.short_action,
+        draws_state_lines: d.draws_state_lines,
+        draws_congressional_lines: d.draws_congressional_lines
     }
 }
 
 // TODO: move this to database
+// 1 = independent commission
+// 2 = other advisory/commission
+// 3 = poteontial reform by 2021 // proposed independent commission (OLD)
+// 4 = divided or potentially divided gov't.
+// 5 = Legal and legislative routes to reform // state court (OLD)
+// 6   eliminated
+
 const state_statuses = {
     "Washington": 1,
     "California": 1,
@@ -74,6 +84,9 @@ const state_statuses = {
     "New York": 2,
     "Vermont": 2,
     "Maine": 2,
+    "Illinois": 3,
+    "Oregon": 3,
+    "Floria": 3,
     "New Hampshire": 3,
     "Virginia": 3,
     "Arkansas": 3,
@@ -85,17 +98,15 @@ const state_statuses = {
     "Louisiana": 4,
     "Maryland": 4,
     "North Carolina": 5,
-    "Missouri": 6,
 };
 
 const statuses = [
-    "legislature",
-    "independent commission",
-    "other advisory/commission",
-    "proposed independent commission",
-    "divided or potentially divided gov't.",
-    "state court",
-    "potentially divided / state court",
+    "Legislative action/public input",
+    "Independent commission",
+    "Other advisory/commission",
+    "Potential reform by 2021",
+    "Divided or potentially divided gov't.",
+    "Legal and legislative routes to reform",
 ];
 
 d3.json("us-states", function(json) {
@@ -121,7 +132,8 @@ d3.json("us-states", function(json) {
            .style("opacity", .9);
         div.html(
             "<b>" + d.properties.name + "</b><br />" +
-            "<b>Legislative Control: </b>" + state_data_lookup[d.properties.name].legislative_control + "<br />" +
+            "<b>Draws state boundaries: </b>" + state_data_lookup[d.properties.name].draws_state_lines + "<br />" +
+            "<b>Draws congressional boundaries: </b>" + state_data_lookup[d.properties.name].draws_congressional_lines + "<br />" + 
             "<b>Action: </b>" + state_data_lookup[d.properties.name].action + "<br />"
         )
            .style("left", (d3.event.pageX) + "px")
