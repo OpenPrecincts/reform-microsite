@@ -24,7 +24,7 @@
         {% if state.latest_test_url %}
             <li><a href="{{ state.latest_test_url }}">Tests of recent elections</a></li>
         {% endif %}
-        <li>Last updated: {{ state.last_updated|date:"H:i F jS Y" }}</li>
+        <li>Last updated: {{ state.last_updated|date:"F jS Y" }}</li>
     </ul>
 </section>
 
