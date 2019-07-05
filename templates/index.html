@@ -37,13 +37,14 @@ var div = d3.select("#maincontent")
             .style("opacity", 0);
 
 const color = [
-   "#ADD8E6", // gray
+   "#ffffff", // white. fix later
    "#94f654", // bright green
    "#d1fbc0", // mild green
    "#7d5dca", // purple
    "#b15cae", // magenta
    "#fbee65", // yellow
-//    "#e8bb48", // orange
+   "#ADD8E6", // blue
+  //  "#e8bb48", // orange
 ];
 
 const state_data = JSON.parse(document.getElementById('state-data').textContent);
@@ -108,12 +109,13 @@ const state_statuses = {
 };
 
 const statuses = [
-    "Legislative action/public input",
+    "",
     "Independent commission",
     "Other advisory/commission",
     "Potential reform by 2021",
     "Divided or potentially divided gov't.",
     "Legal and legislative routes to reform",
+    "Legislative action/public input",
 ];
 
 d3.json("us-states", function(json) {
@@ -130,7 +132,7 @@ d3.json("us-states", function(json) {
         if (value) {
             return color[value];
         } else {
-            return color[0];
+            return color[6];
         }
     })
     .on("mouseover", function(d) {
