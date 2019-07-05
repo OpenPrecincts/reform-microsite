@@ -13,6 +13,7 @@ def index(request):
     state_data = list(State.objects.values("name", "legislative_control", "actions"))
     for s in state_data:
         action = re.split(r"\.\s", s["actions"])[0]
+        action = re.sub('-', '', action)
         s["short_action"] = action + "." if action else ""
     return render(request, "index.html", {"state_data": state_data})
 
