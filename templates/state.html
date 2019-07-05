@@ -16,9 +16,9 @@
 <section id="summary-block">
     <ul>
         {% if state.draws_congressional_lines|length %}
-            <li>{{ state.draws_congressional_lines }} draws congressional boundaries.</li>
+            <li>Congressional boundaries: Drawn by {{ state.draws_congressional_lines.lower }}.</li>
         {% endif %}
-        <li>{{ state.draws_state_lines }} draws legislative boundaries.</li>
+        <li>State boundaries: Drawn by {{ state.draws_state_lines.lower }}.</li>
         <li>Legislative Control: {{ state.legislative_control }}</li>
         <li>Governor's Political Party: {{ state.gov_control }}</li>
         {% if state.latest_test_url %}
