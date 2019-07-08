@@ -17,6 +17,7 @@ def index(request):
             "actions",
             "draws_congressional_lines",
             "draws_state_lines",
+            "status",
         )
     )
     for s in state_data:

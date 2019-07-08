@@ -37,14 +37,12 @@ var div = d3.select("#maincontent")
             .style("opacity", 0);
 
 const color = [
-   "#ffffff", // white. fix later
+   "#ADD8E6", // blue
    "#94f654", // bright green
    "#d1fbc0", // mild green
    "#7d5dca", // purple
    "#b15cae", // magenta
    "#fbee65", // yellow
-   "#ADD8E6", // blue
-  //  "#e8bb48", // orange
 ];
 
 const state_data = JSON.parse(document.getElementById('state-data').textContent);
@@ -54,58 +52,10 @@ for(var d of state_data) {
         legislative_control: d.legislative_control,
         action: d.short_action,
         draws_state_lines: d.draws_state_lines,
-        draws_congressional_lines: d.draws_congressional_lines
+        draws_congressional_lines: d.draws_congressional_lines,
+        status: d.status,
     }
 }
-
-// TODO: move this to database
-// 1 = independent commission
-// 2 = other advisory/commission
-// 3 = poteontial reform by 2021 // proposed independent commission (OLD)
-// 4 = divided or potentially divided gov't.
-// 5 = Legal and legislative routes to reform // state court (OLD)
-// 6   eliminated
-
-const state_statuses = {
-    "Alaska": 1,
-    "Washington": 1,
-    "California": 1,
-    "Idaho": 1,
-    "Montana": 1,
-    "Arizona": 1,
-    "Colorado": 1,
-    "Michigan": 1,
-    "Missouri": 2,
-    "Hawaii": 2,
-    "Utah": 2,
-    "Iowa": 2,
-    "Ohio": 2,
-    "Pennsylvania": 2,
-    "New Jersey": 2,
-    "New York": 2,
-    "Rhode Island": 2,
-    "New York": 2,
-    "Vermont": 2,
-    "Maine": 2,
-    "North Dakota": 3,
-    "South Dakota": 3,
-    "Nevada": 3,
-    "Nebraska": 3,
-    "Mississippi": 3,
-    "Illinois": 3,
-    "Oregon": 3,
-    "Florida": 3,
-    "New Hampshire": 3,
-    "Virginia": 3,
-    "Arkansas": 3,
-    "Oklahoma": 3,
-    "Minnesota": 4,
-    "Kansas": 4,
-    "Wisconsin": 4,
-    "Louisiana": 4,
-    "Maryland": 4,
-    "North Carolina": 5,
-};
 
 const statuses = [
     "",
@@ -127,11 +77,11 @@ d3.json("us-states", function(json) {
         .style("stroke-width", "1")
         .style("fill", function(d) {
 
-        const value = state_statuses[d.properties.name];
+        const value = state_data_lookup[d.properties.name];
         if (value) {
-            return color[value];
+            return color[value.status];
         } else {
-            return color[6];
+            return color[0];
         }
     })
     .on("mouseover", function(d) {
