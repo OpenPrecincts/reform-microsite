@@ -1,6 +1,6 @@
 ---
 - name: Install reform
-  hosts: all
+  hosts: reform
   user: ubuntu
   become: yes
   roles:

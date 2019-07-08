@@ -1,0 +1,10 @@
+---
+domain_name: reform.openprecincts.org
+django_environment:
+  DEBUG: false
+  ADMINS: James Turk jpturk@princeton.edu
+  SECRET_KEY: "{{ lookup('aws_ssm', '/reform/SECRET_KEY') }}"
+  DATABASE_URL: "{{ lookup('aws_ssm', '/reform/DATABASE_URL') }}"
+  EMAIL_HOST: email-smtp.us-east-1.amazonaws.com
+  EMAIL_HOST_USER: "{{ lookup('aws_ssm', '/op/SMTP_USER') }}"
+  EMAIL_HOST_PASSWORD: "{{ lookup('aws_ssm', '/op/SMTP_PASSWORD') }}"
