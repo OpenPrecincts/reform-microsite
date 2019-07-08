@@ -135,6 +135,9 @@ d3.json("us-states", function(json) {
         }
     })
     .on("mouseover", function(d) {
+        if(document.documentElement.clientWidth < 1000) {A
+            return;
+        }
         div.transition()
            .duration(200)
            .style("opacity", .9);
