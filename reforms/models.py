@@ -12,6 +12,17 @@ class State(models.Model):
     legislative_control = models.CharField(max_length=300, blank=True)
     gov_control = models.CharField(max_length=300, blank=True)
     latest_test_url = models.URLField(blank=True)
+    status = models.PositiveIntegerField(
+        choices=(
+            (0, "Legislative action/public input"),
+            (1, "Independent commission"),
+            (2, "Other advisory/commission"),
+            (3, "Potential reform by 2021"),
+            (4, "Divided or potentially divided gov't."),
+            (5, "Legal and legislative routes to reform"),
+        ),
+        default=0,
+    )
 
     process = MarkupField(markup_type="markdown", blank=True)
     issues = MarkupField(markup_type="markdown", blank=True)
