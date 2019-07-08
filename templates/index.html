@@ -44,6 +44,14 @@ const color = [
    "#b15cae", // magenta
    "#fbee65", // yellow
 ];
+const legend_data = [
+    ["Independent commission", color[1]],
+    ["Other advisory/commission", color[2]],
+    ["Potential reform by 2021", color[3]],
+    ["Divided or potentially divided gov't.", color[4]],
+    ["Legal and legislative routes to reform", color[5]],
+    ["Legislative action/public input", color[0]],
+];
 
 const state_data = JSON.parse(document.getElementById('state-data').textContent);
 var state_data_lookup = {};
@@ -56,16 +64,6 @@ for(var d of state_data) {
         status: d.status,
     }
 }
-
-const statuses = [
-    "",
-    "Independent commission",
-    "Other advisory/commission",
-    "Potential reform by 2021",
-    "Divided or potentially divided gov't.",
-    "Legal and legislative routes to reform",
-    "Legislative action/public input",
-];
 
 d3.json("us-states", function(json) {
     svg.selectAll("path")
@@ -114,15 +112,18 @@ d3.json("us-states", function(json) {
 var legend = d3.select("#map").append("svg")
                 .attr("class", "legend")
                 .selectAll("g")
-                .data(color)
+                .data(legend_data)
                 .enter()
                 .append("g")
-                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+                .attr("transform", function(d, i) {
+                    return "translate(0," + (i * 20) + ")";
+                });
 
 legend.append("rect")
+      .attr("y", 20)
       .attr("width", 18)
       .attr("height", 18)
-      .style("fill", function(d) { return d; }
+      .style("fill", function(d) { return d[1]; }
     );
 
 legend.append("text")
@@ -134,11 +135,10 @@ legend.append("text")
 
 
 legend.append("text")
-      .data(statuses)
       .attr("x", 24)
-      .attr("y", 9)
+      .attr("y", 30)
       .attr("dy", ".35em")
-      .text(function(d) { return d; });
+      .text(function(d) { return d[0]; });
 
 </script>
 {% endblock %}
