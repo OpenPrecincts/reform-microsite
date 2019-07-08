@@ -15,6 +15,13 @@
     vertical-align: middle;
     font-size: 8rem;
 }
+.stateface-nh {
+    min-width: 0.5em !important;
+}
+.stateface-nc {
+    min-width: 1.1em !important;
+    font-size: 6rem !important;
+}
 
 
 .stateface:before {
