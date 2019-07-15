@@ -9,4 +9,5 @@ action "./ansible-action" {
   env = {
     ANSIBLE_GALAXY_FILE = "ansible/requirements.yml"
   }
+  secrets = ["SECRET_KEY", "DATABASE_URL", "SMTP_USER", "SMTP_PASSWORD"]
 }
