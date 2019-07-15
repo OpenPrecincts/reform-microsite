@@ -10,5 +10,11 @@ action "./ansible-action" {
     ANSIBLE_GALAXY_FILE = "ansible/requirements.yml"
     ANSIBLE_HOST_KEY_CHECKING = "False"
   }
-  secrets = ["SSH_KEY", "SECRET_KEY", "DATABASE_URL", "SMTP_USER", "SMTP_PASSWORD"]
+  secrets = [
+    "SECRET_KEY",
+    "DATABASE_URL",
+    "SMTP_USER",
+    "SMTP_PASSWORD",
+    "SSH_KEY",
+  ]
 }
