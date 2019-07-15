@@ -1,6 +1,9 @@
 workflow "Deploy On Push" {
   on = "push"
-  resolves = ["./ansible-action"]
+  resolves = [
+    "./ansible-action",
+    "Only On Master",
+  ]
 }
 
 action "./ansible-action" {
@@ -17,4 +20,9 @@ action "./ansible-action" {
     "SMTP_PASSWORD",
     "SSH_KEY",
   ]
+}
+
+action "Only On Master" {
+  uses = "actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da"
+  args = "branch master"
 }
