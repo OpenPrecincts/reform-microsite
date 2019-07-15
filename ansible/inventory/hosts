@@ -1,3 +1,3 @@
 reform ansible_ssh_host=reform.openprecincts.org ansible_ssh_user=ubuntu ansible_ssh_private_key_file=~/.ssh/opmaster.pem
 
-reform-auto ansible_ssh_host=reform.openprecincts.org ansible_ssh_user=deploy 
+reform-auto ansible_ssh_host=reform.openprecincts.org ansible_ssh_user=deploy ansible_ssh_private_key_file=private.key
