@@ -6,7 +6,13 @@ workflow "Deploy On Push" {
   ]
 }
 
+action "Only On Master" {
+  uses = "actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da"
+  args = "branch master"
+}
+
 action "./ansible-action" {
+  needs = "Only On Master"
   uses = "./ansible-action"
   args = "ansible/reform.yml -i ansible/inventory -l reform-auto"
   env = {
@@ -20,9 +26,4 @@ action "./ansible-action" {
     "SMTP_PASSWORD",
     "SSH_KEY",
   ]
-}
-
-action "Only On Master" {
-  uses = "actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da"
-  args = "branch master"
 }
