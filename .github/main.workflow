@@ -1,4 +1,4 @@
-workflow "New workflow" {
+workflow "Deploy On Push" {
   on = "push"
   resolves = ["./ansible-action"]
 }
