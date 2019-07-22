@@ -10,7 +10,7 @@ def us_json(request):
 
 
 def index(request):
-    state_data = list(
+    state_data = sorted(
         State.objects.values(
             "name",
             "legislative_control",
@@ -18,7 +18,8 @@ def index(request):
             "draws_congressional_lines",
             "draws_state_lines",
             "status",
-        )
+        ),
+        key=lambda s: s["name"],
     )
     for s in state_data:
         action = re.split(r"\.\s", s["actions"])[0]
