@@ -11,4 +11,6 @@ urlpatterns = [
     path(settings.PREFIX + "", views.index),
     path(settings.PREFIX + "export-book/", views.export),
     path(settings.PREFIX + "<str:abbr>/", views.state_page),
+    path(settings.PREFIX + "basic/", views.basic_view),
+
 ]
