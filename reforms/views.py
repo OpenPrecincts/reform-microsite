@@ -64,3 +64,21 @@ def export(request):
     resp = render(request, "export.html", {"states": states}, content_type="text/xml")
     resp["Content-Disposition"] = 'attachment; filename="export.xml"'
     return resp
+
+
+def basic_view(request):
+    state_data = list(
+        State.objects.values(
+            "name",
+            "legislative_control",
+            "actions",
+            "draws_congressional_lines",
+            "draws_state_lines",
+            "status",
+        )
+    )
+    for s in state_data:
+        action = re.split(r"\.\s", s["actions"])[0]
+        action = re.sub("-", "", action)
+        s["short_action"] = action + "." if action else ""
+    return render(request, "basic_view.html", {"state_data": state_data})
