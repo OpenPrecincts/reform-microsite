@@ -8,8 +8,7 @@ from .models import State, CommentForm
 def us_json(request):
     return render(request, "us-states.json", {})
 
-
-def index(request):
+def gen_state_data(request):
     state_data = list(
         State.objects.values(
             "name",
@@ -24,6 +23,10 @@ def index(request):
         action = re.split(r"\.\s", s["actions"])[0]
         action = re.sub("-", "", action)
         s["short_action"] = action + "." if action else ""
+    return state_data    
+
+def index(request):
+    state_data = gen_state_data(request)
     return render(request, "index.html", {"state_data": state_data})
 
 
@@ -67,18 +70,5 @@ def export(request):
 
 
 def basic_view(request):
-    state_data = list(
-        State.objects.values(
-            "name",
-            "legislative_control",
-            "actions",
-            "draws_congressional_lines",
-            "draws_state_lines",
-            "status",
-        )
-    )
-    for s in state_data:
-        action = re.split(r"\.\s", s["actions"])[0]
-        action = re.sub("-", "", action)
-        s["short_action"] = action + "." if action else ""
+    state_data = gen_state_data(request)
     return render(request, "basic_view.html", {"state_data": state_data})
