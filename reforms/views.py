@@ -8,8 +8,9 @@ from .models import State, CommentForm
 def us_json(request):
     return render(request, "us-states.json", {})
 
+ 
 def gen_state_data(request):
-    state_data = list(
+    state_data = sorted(
         State.objects.values(
             "name",
             "legislative_control",
@@ -17,7 +18,8 @@ def gen_state_data(request):
             "draws_congressional_lines",
             "draws_state_lines",
             "status",
-        )
+        ),
+        key=lambda s: s["name"],
     )
     for s in state_data:
         action = re.split(r"\.\s", s["actions"])[0]
