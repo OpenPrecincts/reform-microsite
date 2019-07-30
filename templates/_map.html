@@ -55,7 +55,7 @@ for(var d of state_data) {
     }
 }
 
-d3.json("us-states", function(json) {
+d3.json("/reforms2019/us-states", function(json) {
     svg.selectAll("path")
         .data(json.features)
         .enter()
@@ -73,7 +73,7 @@ d3.json("us-states", function(json) {
         }
     })
     .on("mouseover", function(d) {
-        if(document.documentElement.clientWidth < 1000) {A
+        if(document.documentElement.clientWidth < 1000) {
             return;
         }
         div.transition()
