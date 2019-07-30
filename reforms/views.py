@@ -8,8 +8,8 @@ from .models import State, CommentForm
 def us_json(request):
     return render(request, "us-states.json", {})
 
-
-def index(request):
+ 
+def gen_state_data(request):
     state_data = sorted(
         State.objects.values(
             "name",
@@ -25,6 +25,10 @@ def index(request):
         action = re.split(r"\.\s", s["actions"])[0]
         action = re.sub("-", "", action)
         s["short_action"] = action + "." if action else ""
+    return state_data    
+
+def index(request):
+    state_data = gen_state_data(request)
     return render(request, "index.html", {"state_data": state_data})
 
 
@@ -65,3 +69,8 @@ def export(request):
     resp = render(request, "export.html", {"states": states}, content_type="text/xml")
     resp["Content-Disposition"] = 'attachment; filename="export.xml"'
     return resp
+
+
+def basic_view(request):
+    state_data = gen_state_data(request)
+    return render(request, "basic_view.html", {"state_data": state_data})
