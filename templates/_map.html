@@ -19,6 +19,7 @@ const path = d3.geo.path().projection(projection);
 
 var svg = d3.select("#map")
             .append("svg")
+            .attr("id", "mainmap")
             .attr("width", width)
             .attr("height", height);
 var div = d3.select("#maincontent")
