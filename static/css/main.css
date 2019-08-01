@@ -105,7 +105,7 @@ path:hover {
 }
 .legend {
     justify-self: end; 
-    /* //used to be end */
+    margin-inline-end: 10%;
 }
 
 /* nav bar from PGP site */
