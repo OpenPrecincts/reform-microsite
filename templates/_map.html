@@ -7,6 +7,7 @@
 
 // var width = 960;
 // var height = 500;
+
 if(document.documentElement.clientWidth < 1224) {
     width = document.documentElement.clientWidth - 100;
     height = width * 0.5;
@@ -106,28 +107,30 @@ var legend = d3.select("#map").append("svg")
                 .enter()
                 .append("g")
                 .attr("transform", function(d, i) {
-                    return "translate(0," + (i * 20) + ")";
+                    return "translate(0," + (i * 20) + ")"; //this was 20
                 });
 
 legend.append("rect")
-      .attr("y", 20)
-      .attr("width", 18)
-      .attr("height", 18)
+      .attr("y", 20) //20
+      .attr("width", 18) //18
+      .attr("height", 18) //18
       .style("fill", function(d) { return d[1]; }
     );
 
 legend.append("text")
         .data(["foo"])
-        .attr("x", 24)
-        .attr("y", 12)
+        .attr("x", 24) //24
+        .attr("y",12) //12
+        .attr("font-size", legend_title)
         .attr("font-weight", "bold")
         .text(function(d) { return "Key Redistricting Features"; });
 
 
 legend.append("text")
-      .attr("x", 24)
-      .attr("y", 30)
-      .attr("dy", ".35em")
+      .attr("x", 24) //24
+      .attr("y", 30) //30
+      .attr("dy", ".35em") //.35
+      .attr("font-size", legend_text)
       .text(function(d) { return d[0]; });
 
 </script>

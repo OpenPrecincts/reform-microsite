@@ -25,7 +25,8 @@ a:hover, .burnt {
     grid-column-gap: 20px;
 }
 #map {
-    display: grid;
+    display: inline-flex; 
+    /* used to be grid */
     grid-template-columns: auto;
     grid-row-gap: 10px;
 }
@@ -103,7 +104,8 @@ path:hover {
     pointer-events: none;
 }
 .legend {
-    justify-self: end;
+    justify-self: end; 
+    /* //used to be end */
 }
 
 /* nav bar from PGP site */
