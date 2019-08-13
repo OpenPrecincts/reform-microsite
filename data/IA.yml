@@ -1,0 +1,34 @@
+abbreviation: IA
+actions: "Advocate for the existing system at the state legislature, in the press,\
+  \ and in your community. \r\n\r\n- Obtain redistricting data from <a href=\"https://openprecincts.org/\"\
+  >OpenPrecincts</a>.\r\n\r\n- Use software tools such as Dave's Redistricting App\
+  \ to draw district maps showing either (a) what a fair map would look like, or (b)\
+  \ where the community you believe should be better represented is located. \r\n\r\
+  \n- Submit these maps to the Commission as a public comment."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Iowa](https://www.lwvia.org/)\r\n\r\n[ACLU of\
+  \ Iowa](https://www.aclu-ia.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Hybrid commission system
+draws_state_lines: Hybrid commission system
+gov_control: Republican
+issues: Iowa has a public comment process. This is a central method by which voters
+  can weigh in on the drawing of Congressional and legislative lines.
+issues_markup_type: markdown
+last_updated: 2019-07-15 15:16:59.497808+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/IA
+legislative_control: Republican
+name: Iowa
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Iowa has one of the nation's first redistricting commission processes. \
+  \ Civil servants, guided by a bipartisan committee, draft up to three maps, which\
+  \ the legislature can accept or reject (or modify, after a certain number of rejections).\
+  \ The success of this process depends on courtesy between legislators and a respect\
+  \ for democratic norms.\r\n\r\nIn addition to the federal requirements of one person,\
+  \ one vote and the Voting Rights Act, Iowa law requires that state legislative and\
+  \ congressional districts be compact, contiguous, and preserve political subdivisions.\
+  \ Consideration of partisan data is prohibited except where required by federal\
+  \ law, as is intentionally favoring or disfavoring an incumbent, person, or group."
+process_markup_type: markdown
+status: 2

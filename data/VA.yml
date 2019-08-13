@@ -1,0 +1,40 @@
+abbreviation: VA
+actions: "- Contact your legislator to express support for the reform constitutional\
+  \ amendment.\r\n\r\n- Join an fair-districting advocacy organization.\r\n\r\n- At\
+  \ redistricting time, use data and free software to weigh in on communities of interest.\
+  \ Use those same resources to analyze draft maps and draw your own."
+actions_markup_type: markdown
+contacts: "[One Virginia 2021](onevirginia2021.org)\r\n\r\n[New Virginia Majority](newvirginiamajority.org)\r\
+  \n\r\n[League of Women Voters Virginia](https://lwv-va.org/)\r\n\r\n[Virginia Civic\
+  \ Engagement Table](https://engageva.org/)\r\n\r\n[Virginia Organizing](https://virginia-organizing.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: "- The House of Delegates and state Senate could both come under Democratic\
+  \ control by 2021. This would create single-party control over redistricting.\r\n\
+  \r\n- A constitutional amendment to establish a redistricting commission has been\
+  \ passed by the General Assembly (both House and Senate) in the most recent legislative\
+  \ session. If it is passed again in the 2019-2020 legislative session, the question\
+  \ will go on the general election ballot."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.560410+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/VA
+legislative_control: Republican
+name: Virginia
+pitfalls: In recent redistricting cycles, Virginia was subject to Section 5 of the
+  Voting Rights Act because of a history of racial discrimination against minority
+  groups. In accordance with Section 5, Virginia was required to receive preapproval
+  from either the Department of Justice or a federal court for any change to its redistricting
+  plans. This decade will be the first cycle without those protections. Observers
+  should closely monitor every step of the redistricting process to ensure that all
+  Virginians are treated fairly.
+pitfalls_markup_type: markdown
+process: "Virginia's state legislative and congressional districts are drawn by the\
+  \ legislature by ordinary statute, and are subject to the governor's veto. The legislature\
+  \ can override vetoes with a two-thirds vote in each chamber.\r\n\r\nIn addition\
+  \ to the federal requirements of one person, one vote and the Voting Rights Act,\
+  \ Virginia law requires that state legislative and congressional districts be compact,\
+  \ contiguous, and preserve communities of interest."
+process_markup_type: markdown
+status: 3

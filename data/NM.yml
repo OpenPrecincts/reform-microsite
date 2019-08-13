@@ -1,0 +1,31 @@
+abbreviation: NM
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- Advocate for an independent citizens' redistricting commission.\r\n\r\n- Contact\
+  \ Common Cause New Mexico to work on redistricting issues."
+actions_markup_type: markdown
+contacts: "[Common Cause New Mexico](https://www.commoncause.org/new-mexico/)\r\n\r\
+  \n[League of Women Voters of New Mexico](https://www.lwvnm.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: New Mexico has varied ethnic communities predating the United States. These
+  are unusual and important local circumstances.
+issues_markup_type: markdown
+last_updated: 2019-07-05 23:36:42.175325+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/NM
+legislative_control: Democratic
+name: New Mexico
+pitfalls: Both chambers of the legislature and the governorship are controlled by
+  Democrats. If the party maintains those majorities when it is time to draw new maps,
+  there will be an increased risk of partisan gerrymandering.
+pitfalls_markup_type: markdown
+process: "New Mexico's state legislative and congressional districts are drawn by\
+  \ the state legislature by ordinary statute, and are subject to the governor's veto.\
+  \ The legislature can override vetoes with a two-thirds vote in each chamber.\r\n\
+  \r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, New Mexico law requires that state legislative and congressional districts\
+  \ be compact, contiguous, preserve political subdivisions, and preserve communities\
+  \ of interest."
+process_markup_type: markdown
+status: 0

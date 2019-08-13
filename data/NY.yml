@@ -1,0 +1,39 @@
+abbreviation: NY
+actions: "Defend the new system while advocating for further reforms.\r\n\r\n- The\
+  \ success of this commission will depend on public input. Stand up for your community\
+  \ of interest at public hearings.\r\n\r\n- Write to your local news organization\
+  \ in support of the advisory commission. Make noise!\r\n\r\n- Obtain redistricting\
+  \ data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\n\r\n- Use\
+  \ software tools such as Dave's Redistricting App to draw district maps showing\
+  \ either (a) what a fair map would look like, or (b) where the community you believe\
+  \ should be better represented is located. \r\n\r\n- Submit maps to the Commission\
+  \ as a public comment."
+actions_markup_type: markdown
+contacts: "[Brennan Center for Justice](https://www.brennancenter.org/issues/redistricting)\r\
+  \n\r\n[Common Cause New York](https://www.commoncause.org/new-york/)\r\n\r\n[New\
+  \ York Civil Liberties Union](https://www.nyclu.org/en)"
+contacts_markup_type: markdown
+draws_congressional_lines: Hybrid commission system
+draws_state_lines: Hybrid commission system
+gov_control: Democratic
+issues: New York's redistricting process has been contentious in the past. The current
+  maps were drawn by a court-appointed special master.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.816323+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/NY
+legislative_control: Democratic
+name: New York
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Beginning in 2021, New York's state legislative and congressional districts\
+  \ will be drawn by a ten-member commission, which will submit proposed plans to\
+  \ the state legislature for an up-or-down vote. Only after the commission rejects\
+  \ two proposed maps will the legislature be permitted to make amendments to the\
+  \ commission's proposals.\r\n\r\nIn addition to the federal requirements of one\
+  \ person, one vote and the Voting Rights Act, New York law requires that state legislative\
+  \ and congressional districts be compact, contiguous, preserve political subdivisions,\
+  \ preserve communities of interest, preserve the cores of prior districts, and be\
+  \ drawn to promote competitiveness. Intentionally favoring or disfavoring an incumbent,\
+  \ party, or candidate for office is prohibited."
+process_markup_type: markdown
+status: 2

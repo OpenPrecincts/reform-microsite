@@ -1,0 +1,43 @@
+abbreviation: OH
+actions: "Defend the new system while advocating for further reforms.\r\n\r\n- In\
+  \ 2020 and 2022, work on judicial elections.\r\n\r\n- During the 2021 redistricting\
+  \ process, use data and free mapping software to analyze draft maps and offer public\
+  \ comment."
+actions_markup_type: markdown
+contacts: "[ACLU of Ohio](https://www.acluohio.org/)\r\n\r\n[Fair Districts = Fair\
+  \ Elections](http://www.fairdistrictsohio.org/)\r\n\r\n[Ohio Voice](https://ohvoice.org/)\r\
+  \n\r\n[League of Women Voters of Ohio](League of Women Voters)"
+contacts_markup_type: markdown
+draws_congressional_lines: Hybrid legislative/commission system
+draws_state_lines: Hybrid commission system
+gov_control: Republican
+issues: "Disputes will be decided by the state Supreme Court, which is currently conservative-dominated.\
+  \ \r\n\r\nTwo seats on the state Supreme Court are up for election in 2020. These\
+  \ elections, combined with later elections in 2022, will determine whether liberals\
+  \ or conservatives control the court."
+issues_markup_type: markdown
+last_updated: 2019-07-11 21:06:01.154331+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/OH
+legislative_control: Republican
+name: Ohio
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Beginning in 2021, Ohio will use two unique systems to draw its state legislative\
+  \ and congressional districts. For congressional districts, the legislature must\
+  \ attempt to pass redistricting plans that attract support from both parties. If\
+  \ this fails, then the task goes to a commission whose members are appointed by\
+  \ politicians. If that fails, then the task goes back to the legislature. If there\
+  \ is still a lack of bipartisan support, the resulting plan will go into effect\
+  \ for only four years, after which the process will begin again. For state legislative\
+  \ districts, the same commission that serves as a backup for drawing congressional\
+  \ districts has the primary responsibility for drawing state legislative maps. The\
+  \ length of time for which the maps are in effect depends on the breakdown for how\
+  \ they are adopted: if at least two commissioners aligned with both parties vote\
+  \ for the maps, they remain in effect for the entire decade. But if the maps are\
+  \ adopted on a party-line vote, they will only be in effect for four years.\r\n\r\
+  \nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Ohio law requires that state legislative and congressional districts\
+  \ be compact, contiguous, and preserve political subdivisions. Favoring an incumbent\
+  \ or party is prohibited."
+process_markup_type: markdown
+status: 2

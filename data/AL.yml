@@ -1,0 +1,46 @@
+abbreviation: AL
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- Obtain redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located.\r\n\r\n- Submit these maps\
+  \ to the Legislature as a public comment.\r\n\r\n- If offenses are committed by\
+  \ the Legislature, federal and state lawsuits."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Alabama](https://lwval.org/)\r\n\r\n[Alabama\
+  \ Voting Rights Project](https://www.alabamavotingrights.com/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "The Voting Rights Act and the Constitution currently guarantee that minority\
+  \ populations should have fair opportunities to elect representatives. But when\
+  \ blacks are packed to be 50% or more of the voting-eligible population of a district,\
+  \ they may miss opportunities in neighboring districts. Fair districting therefore\
+  \ requires careful attention to how the lines are drawn. Some of Alabama's maps\
+  \ this past decade were found by federal courts to be racial gerrymanders. There\
+  \ may be another attempt to commit racial gerrymanders in the upcoming redistricting\
+  \  cycle.\r\n\r\nBecause a single party will control redistricting, there is an\
+  \ increased risk of partisan gerrymandering."
+issues_markup_type: markdown
+last_updated: 2019-07-05 23:33:32.629050+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/AL
+legislative_control: Republican
+name: Alabama
+pitfalls: In recent redistricting cycles, Alabama was subject to Section 5 of the
+  Voting Rights Act because of a history of racial discrimination against minority
+  groups. In accordance with Section 5, Alabama was required to receive preapproval
+  from either the Department of Justice or a federal court for any change to its redistricting
+  plans. This decade will be the first cycle without those protections. Observers
+  should closely monitor every step of the redistricting process to ensure that all
+  Alabamans are treated fairly.
+pitfalls_markup_type: markdown
+process: "Alabama's state legislative and congressional district lines are drawn by\
+  \ the legislature by ordinary statute, and are subject to the governor's veto. The\
+  \ legislature can override vetoes with a simple majority vote in each chamber.\r\
+  \n\r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Alabama law requires that state legislative and congressional districts\
+  \ be compact, contiguous, preserve political subdivisions, and preserve communities\
+  \ of interest."
+process_markup_type: markdown
+status: 0

@@ -1,0 +1,39 @@
+abbreviation: AK
+actions: "Participate in the commission's public comment process.\r\n\r\n- Obtain\
+  \ redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located. \r\n\r\n- Submit these maps\
+  \ to the Commission as a public comment."
+actions_markup_type: markdown
+contacts: "[Alaska's Redistricting Board](akredistricting.org)\r\n\r\n[League of Women\
+  \ Voters Juneau](http://juneaulwv.org/)\r\n\r\n[League of Women Voters Alaska](http://www.lwvalaska.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: ''
+draws_state_lines: Independent Redistricting Commission
+gov_control: Republican
+issues: "Alaska's state legislative maps do not score poorly on the Princeton Gerrymandering\
+  \ Project's tests of partisan unfairness. \r\n\r\nPotential issues are a lack of\
+  \ representation for indigenous Alaskans and communities of interest."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.208026+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/AK
+legislative_control: 'Senate: Republican; House: Bipartisan Coalition Control'
+name: Alaska
+pitfalls: In recent redistricting cycles, Alaska was subject to Section 5 of the Voting
+  Rights Act because of a history of discrimination against minority groups. In accordance
+  with Section 5, Alaska was required to receive preapproval from either the Department
+  of Justice or a federal court for any change to its redistricting plans. This decade
+  will be the first cycle without those protections. Observers should closely monitor
+  every step of the redistricting process to ensure that all Alaskans are treated
+  fairly.
+pitfalls_markup_type: markdown
+process: "Alaska's state legislative district lines are drawn by the state's Redistricting\
+  \ Board, an independent commission with members appointed by the governor, the majority\
+  \ leaders in each chamber of the legislature, and the Chief Justice of the Supreme\
+  \ Court. It has only one at-large congressional district.\r\n\r\nIn addition to\
+  \ the federal requirements of one person, one vote and the Voting Rights Act, Alaska\
+  \ law requires that state legislative districts be compact, contiguous, preserve\
+  \ political subdivisions, and preserve communities of interest."
+process_markup_type: markdown
+status: 1

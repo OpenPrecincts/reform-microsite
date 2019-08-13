@@ -1,0 +1,31 @@
+abbreviation: KS
+actions: "In 2020, support state legislative candidates who favor fair districting.\r\
+  \n\r\nIn 2021, use data and free software to weigh in on communities of interest,\
+  \ as well as analyze proposed maps."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Kansas](https://lwvk.org/)\r\n\r\n[ACLU of Kansas](https://www.aclukansas.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: The GOP-controlled legislature currently has a supermajority in both House
+  and Senate, enough to override the governor's veto on a redistricting plan. A change
+  of two seats in House or Senate would undo the supermajority.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.694442+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/KS
+legislative_control: Republican
+name: Kansas
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Kansas's state legislative and congressional districts are drawn by the\
+  \ state legislature by ordinary statute, and are subject to the governor's veto.\
+  \ The legislature can override vetoes with a two-thirds vote in each chamber.\r\n\
+  \r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Kansas law requires that state legislative districts be compact, contiguous,\
+  \ preserve political subdivisions, preserve communities of interest, and avoid pairing\
+  \ incumbents. Kansas law requires that the state's congressional districts be compact,\
+  \ contiguous, preserve political subdivisions, preserve communities of interest,\
+  \ and preserve the cores of prior districts."
+process_markup_type: markdown
+status: 4

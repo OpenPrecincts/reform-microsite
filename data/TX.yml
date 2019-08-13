@@ -1,0 +1,45 @@
+abbreviation: TX
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- In 2021, use public comment to identify communities of interest. Use open\
+  \ data and free software to analyze draft maps for undue partisanship or ill treatment\
+  \ of minority groups. Do your own analysis, and make a public stink in news media!\r\
+  \n\r\n- After redistricting, be alert for racial gerrymandering lawsuits in federal\
+  \ court.\r\n\r\n- Elect state supreme court justices who are receptive to legal\
+  \ arguments in favor of voting rights."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Texas](https://my.lwv.org/texas)\r\n\r\n[Texas\
+  \ Organizing Project](https://organizetexas.org/)\r\n\r\n[Texas State LULAC](http://www.texasstatelulac.com/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "- The Voting Rights Act and the Constitution currently guarantee that minority\
+  \ populations should have fair opportunities to elect representatives. In Texas,\
+  \ this is problematic: despite picking up five more House representatives in the\
+  \ last two decades thanks to increases in the Hispanic population, no additional\
+  \ Hispanic Congresspersons have been elected. The reason? Racial gerrymandering.\r\
+  \n\r\n- The effort to add a citizenship question to the Census would open the possibility\
+  \ of drawing districts of equal citizen population rather than equal total population.\
+  \ This would allow Hispanics to be packed into even fewer districts. Racial gerrymandering\
+  \ is also a significant risk in 2021."
+issues_markup_type: markdown
+last_updated: 2019-08-12 16:06:39.785848+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/TX
+legislative_control: Republican
+name: Texas
+pitfalls: In recent redistricting cycles, Texas was subject to Section 5 of the Voting
+  Rights Act because of a history of racial discrimination against minority groups.
+  In accordance with Section 5, Texas was required to receive preapproval from either
+  the Department of Justice or a federal court for any change to its redistricting
+  plans. This decade will be the first cycle without those protections. Observers
+  should closely monitor every step of the redistricting process to ensure that all
+  Texans are treated fairly.
+pitfalls_markup_type: markdown
+process: "Texas's state legislative and congressional districts are drawn by the legislature\
+  \ by ordinary statute, and are subject to the governor's veto. The legislature can\
+  \ override vetoes with a two-thirds vote in each chamber.\r\n\r\nIn addition to\
+  \ the federal requirements of one person, one vote and the Voting Rights Act, Texas\
+  \ law requires that state legislative districts be contiguous. There are no state\
+  \ law requirements for drawing congressional districts."
+process_markup_type: markdown
+status: 0

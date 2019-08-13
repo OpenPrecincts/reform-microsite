@@ -1,0 +1,38 @@
+abbreviation: IL
+actions: "Support a ballot initiative to establish an independent redistricting process.\r\
+  \n\r\n- At redistricting time, obtain redistricting data from <a href=\"https://openprecincts.org/\"\
+  >OpenPrecincts</a>.\r\n\r\n- Use software tools such as Dave's Redistricting App\
+  \ to draw district maps showing either (a) what a fair map would look like, or (b)\
+  \ where the community you believe should be better represented is located."
+actions_markup_type: markdown
+contacts: "[Better Redistricting Association](https://www.bettergov.org/)\r\n\r\n\
+  [Change Illinois](http://www.changeil.org/)\r\n\r\n[Common Cause Illinois](https://www.commoncause.org/illinois/)\r\
+  \n\r\n[League of Women Voters of Illinois](https://www.lwvil.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: "- Illinois has multiple opportunity-to-elect districts, drawn under the guidance\
+  \ of the Voting Rights Act and the Constituion. Overall, Illinois does not set off\
+  \ statistical alarms for partisan gerrymandering.\r\n\r\n- Illinois has a voter\
+  \ initiative process. Such a process would reduce the risk of self-dealing by legislators."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.290999+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/IL
+legislative_control: Democratic
+name: Illinois
+pitfalls: Both chambers of the legislature and the governorship are controlled by
+  Democrats. If the party has control of the legislature when it is time to draw new
+  maps, there will be an increased risk of partisan gerrymandering.
+pitfalls_markup_type: markdown
+process: "Illinois's state legislative and congressional districts are drawn by the\
+  \ state legislature by ordinary statute, and are subject to the Governor's veto.\
+  \ The legislature can override vetoes with a three-fifths vote in each chamber.\
+  \ If the state fails to adopt legislative lines, a backup commission is formed to\
+  \ draw those lines. There is no backup commission in the event of a failure to adopt\
+  \ congressional district lines.\r\n\r\nIn addition to the federal requirements of\
+  \ one person, one vote and the Voting Rights Act, Illinois law requires that state\
+  \ legislative districts be compact and contiguous. There are no state law requirements\
+  \ for drawing congressional districts."
+process_markup_type: markdown
+status: 3

@@ -1,0 +1,33 @@
+abbreviation: MT
+actions: "Participate in the commission's public comment process.\r\n\r\n- Obtain\
+  \ redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located. \r\n\r\n- Submit these maps\
+  \ to the Commission as a public comment."
+actions_markup_type: markdown
+contacts: "[Common Cause Montana](https://www.commoncause.org/states/common-cause-montana/#)\r\
+  \n\r\n[League of Women Voters of Montana](https://my.lwv.org/montana)"
+contacts_markup_type: markdown
+draws_congressional_lines: ''
+draws_state_lines: Independent Redistricting Commission
+gov_control: Democratic
+issues: Potential underrepresentation of communities of interest.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.383741+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/MT
+legislative_control: Republican
+name: Montana
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Montana's state legislative and congressional districts are drawn by an\
+  \ independent redistricting commission. Currently, Montana has only one at-large\
+  \ congressional district. If Montana gains a second district following the 2020\
+  \ Census, its congressional districts will also be drawn by the commission.\r\n\r\
+  \nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Montana law requires that state legislative districts be compact,\
+  \ contiguous, and preserve political subdivisions. Consideration of partisan data\
+  \ is prohibited except where required by federal law or as a remedy in a lawsuit,\
+  \ as is favoring or disfavoring a party or or candidate for office."
+process_markup_type: markdown
+status: 1

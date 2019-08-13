@@ -1,0 +1,32 @@
+abbreviation: WV
+actions: In 2019, elect legislative and gubernatorial candidates who support redistricting
+  reform. The entire state legislature is up for re-election this year, as is the
+  Governor. A majority-reform coalition or split control of state power could check
+  the worst gerrymandering impulses in 2021. In 2021, use data and free software to
+  weigh in on communities of interest, as well as analyze proposed maps.
+actions_markup_type: markdown
+contacts: "[League of Women Voters of West Virginia](https://www.lwvwv.org/)\r\n\r\
+  \n[West Virginia Citizens for Clean Elections](https://wvoter-owned.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: Beginning in 2021, West Virginia will redistrict its state legislature entirely
+  with single-member districts instead of a mix of single-member and multi-member
+  districts. This will increase the number of legislative districts, which in turn
+  increases the number of opportunities for partisan offenses to be committed.
+issues_markup_type: markdown
+last_updated: 2019-07-13 16:39:21.686414+00:00
+latest_test_url: ''
+legislative_control: Republican
+name: West Virginia
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "West Virginia's state legislative and congressional district lines are drawn\
+  \ by the legislature via statute, and are subject to the governor's veto. The legislature\
+  \ can override vetoes with a simple majority vote in each chamber.\r\n\r\nIn addition\
+  \ to the federal requirements of one person, one vote and the Voting Rights Act,\
+  \ West Virginia law requires that state legislative and congressional districts\
+  \ be compact, contiguous, and preserve political subdivisions."
+process_markup_type: markdown
+status: 4

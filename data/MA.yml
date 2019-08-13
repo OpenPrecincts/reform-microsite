@@ -1,0 +1,38 @@
+abbreviation: MA
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- In 2021, use public comment to identify communities of interest. \r\n\r\n\
+  - Use <a href=\"https://openprecincts.org/\">OpenPrecincts</a> and free software\
+  \ to analyze draft maps for undue partisanship or ill treatment of minority groups.\
+  \ Contribute your own maps!"
+actions_markup_type: markdown
+contacts: "[MassVote](https://www.massvote.org/)\r\n\r\n[League of Women Voters of\
+  \ Massachusetts](https://lwvma.org/)\r\n\r\n[ACLU of Massachusetts](https://www.aclum.org/en)\r\
+  \n\r\n[Metric Geometry and Gerrymandering Group](https://mggg.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "Redistricting in Massachusetts is under single-party control by Democrats\
+  \ because of the party's  legislative supermajorities (permitting override of a\
+  \ veto from the Commonwealth's Republican governor), and the delegation is 9 Democrats\
+  \ and no Republicans. However, the Metric Geometry and Gerrymandering Group has\
+  \ used intensive computer simulations to find that Republicans are so evenly distributed\
+  \ around the state that drawing a Republican Congressional district is impossible.\r\
+  \n\r\nMassachusetts has an extensive <a href=\"http://redistricting.lls.edu/states-MA.php#input\"\
+  >public input</a> process for redistricting."
+issues_markup_type: markdown
+last_updated: 2019-07-05 23:35:25.454605+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/MA
+legislative_control: Democratic
+name: Massachusetts
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Massachusetts's state legislative and congressional districts are drawn\
+  \ by the state legislature by ordinary statute, and are subject to the governor's\
+  \ veto. The legislature can override vetoes with a two-thirds vote in each chamber.\r\
+  \n\r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Massachusetts law requires that state legislative and congressional\
+  \ districts be contiguous and preserve political subdivisions. There are no state\
+  \ law requirements for drawing congressional districts."
+process_markup_type: markdown
+status: 0

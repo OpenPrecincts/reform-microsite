@@ -1,0 +1,36 @@
+abbreviation: MO
+actions: "Advocate for extending these reforms to congressional districts as well,\
+  \ while preventing rollback of recent reforms of the state legislative process.\r\
+  \n\r\n- Write to your local newspaper and advocate for the success of the nonpartisan\
+  \ process.\r\n\r\n- Contact your legislator in support of nonpartisan approaches\
+  \ to fair districting.\r\n\r\n- In 2021, use data and free software to contribute\
+  \ to public comment with maps, communities of interest, and analysis of draft maps."
+actions_markup_type: markdown
+contacts: "[Clean Missouri](https://www.cleanmissouri.org/)\r\n\r\n[League of Women\
+  \ Voters of Metro St. Louis](http://www.lwvstl.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Nonpartisan demographer
+gov_control: Republican
+issues: "- Legislators of both parties are seeking to alter or weaken the measure.\r\
+  \n\r\n- Disputes will go to the state Supreme Court, which is favorable to voting\
+  \ rights."
+issues_markup_type: markdown
+last_updated: 2019-07-13 16:47:05.364354+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/MO
+legislative_control: Republican
+name: Missouri
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Beginning in 2021, Missouri's state legislative districts will be drawn\
+  \ by a nonpartisan state demographer. The demographer will draft maps for the legislature,\
+  \ which can either approve or reject them. The state's congressional districts will\
+  \ be drawn by the legislature by ordinary statute, and will be subject to the governor's\
+  \ veto.\r\n\r\nIn addition to the federal requirements of one person, one vote and\
+  \ the Voting Rights Act, Missouri law requires that state legislative  districts\
+  \ be compact, contiguous, preserve political subdivisions, and be drawn to promote\
+  \ partisan symmetry. Missouri law requires that congressional districts be compact\
+  \ and contiguous. For state legislative districts only, intentionally favoring or\
+  \ disfavoring an incumbent, party, or candidate for office is prohibited."
+process_markup_type: markdown
+status: 2

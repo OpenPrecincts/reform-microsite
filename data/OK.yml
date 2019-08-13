@@ -1,0 +1,30 @@
+abbreviation: OK
+actions: Support a ballot initiative to establish an independent redistricting process.
+actions_markup_type: markdown
+contacts: "[Let's Fix This OK](https://letsfixthisok.org/)\r\n\r\n[League of Women\
+  \ Voters Oklahoma](http://www.lwvok.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "- Because of the substantial Native American population, Oklahoma has special\
+  \ challenges in making certain that they are represented.\r\n\r\n- Oklahoma has\
+  \ a ballot initiative process."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.626966+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/OK
+legislative_control: Republican
+name: Oklahoma
+pitfalls: Both chambers of the legislature and the governorship are controlled by
+  Republicans. If the party maintains those majorities when it is time to draw new
+  maps, there will be an increased risk of partisan gerrymandering.
+pitfalls_markup_type: markdown
+process: "Oklahoma's state legislative and congressional district lines are drawn\
+  \ by the state legislature by ordinary statute, and are subject to the governor's\
+  \ veto. The legislature can override vetoes with a two-thirds vote in each chamber.\r\
+  \n\r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Oklahoma law requires that state legislative and congressional districts\
+  \ be compact, contiguous, preserve political subdivisions, and preserve communities\
+  \ of interest."
+process_markup_type: markdown
+status: 3

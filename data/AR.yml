@@ -1,0 +1,34 @@
+abbreviation: AR
+actions: Gather signatures for the independent citizens' redistricting commission.
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Arkansas](http://www.lwv-arkansas.org/)\r\n\r\
+  \n[ACLU of Arkansas](https://www.acluarkansas.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Apportionment Board
+gov_control: Republican
+issues: Arkansas currently has single-party control over redistricting. A constitutional
+  amendment could replace process with commission. There are two proposals. One proposal,
+  sponsored by Little Rock attorney David Couch, will <a href="https://arktimes.com/arkansas-blog/2018/10/26/attorney-general-approves-proposal-for-independent-redistricting-commission">establish</a>
+  an independent citizens' redistricting commission. Passage of this proposal would
+  change the redistricting process for 2021.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.593926+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/AR
+legislative_control: Republican
+name: Arkansas
+pitfalls: A different ballot initiative would also create a commission. However, the
+  members would be appointed by politicians. This commission would likely have 5 Republicans
+  and 2 Democrats. This measure is sponsored by politician Nate Steel.
+pitfalls_markup_type: markdown
+process: "Arkansas's state legislative districts are drawn by an Apportionment Board\
+  \ consisting of the Governor, the Attorney General, and the Secretary of State.\
+  \ Its Congressional districts are drawn by the legislature by ordinary statute,\
+  \ and are subject to the governor's veto. The Legislature has the power to override\
+  \ the Governor's veto with a simple majority in each chamber.\r\n\r\nIn addition\
+  \ to the federal requirements of one person, one vote and the Voting Rights Act,\
+  \ Arkansas law requires that state legislative districts be compact, contiguous,\
+  \ preserve communities of interest, and preserve the cores of prior districts. There\
+  \ are no state law requirements for drawing congressional districts."
+process_markup_type: markdown
+status: 3

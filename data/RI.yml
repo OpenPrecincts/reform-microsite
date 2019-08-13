@@ -1,0 +1,35 @@
+abbreviation: RI
+actions: "Defend the advisory system while advocating for further reforms.\r\n\r\n\
+  - Stand up for your community of interest at public hearings.\r\n\r\n- Write to\
+  \ your local news organization in support of the advisory commission. Make noise!\r\
+  \n\r\n- Obtain redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located. \r\n\r\n- Submit maps to\
+  \ the Commission as a public comment."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Rhode Island](http://www.lwvri.org/)\r\n\r\n\
+  [ACLU of Rhode Island](http://www.riaclu.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: The success of this commission will depend on public input.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.910438+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/RI
+legislative_control: Democratic
+name: Rhode Island
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Responsibility for drawing Rhode Island's state legislative and congressional\
+  \ districts lies with the state legislature, which may adopt plans by ordinary statute.\
+  \ Those plans are subject to the governor's veto. The legislature can override vetoes\
+  \ with a three-fifths vote in each chamber.\r\n\r\nIn 2011, Rhode Island established\
+  \ an advisory commission that makes recommendations to the legislature, which it\
+  \ can accept, modify, or reject entirely.\r\n\r\nIn addition to the federal requirements\
+  \ of one person, one vote and the Voting Rights Act, Rhode Island law requires that\
+  \ state legislative and congressional districts be compact, contiguous, and preserve\
+  \ political subdivisions."
+process_markup_type: markdown
+status: 2

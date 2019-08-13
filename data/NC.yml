@@ -1,0 +1,46 @@
+abbreviation: NC
+actions: "- Write to your local representative or news provider to express your opinion\
+  \ on the reform bills.\r\n\r\n- Use <a href=\"https://openprecincts.org/\">OpenPrecincts</a>\
+  \ to obtain data and apps to analyze candidate maps and produce your own maps.\r\
+  \n\r\n- At public hearings weigh in with legislators on your community of interest.\r\
+  \n\r\n- Run for legislature. Because the Governor cannot veto redistricting plans,\
+  \ flipping a chamber to create divided government is the only way to create a structural\
+  \ roadblock to gerrymandering absent reform legislation or legal action."
+actions_markup_type: markdown
+contacts: "[Southern Coalition for Social Justice](https://www.southerncoalition.org/)\r\
+  \n\r\nProfessor Jonathan Mattingly, Duke University. Statistical expert.\r\n\r\n\
+  [End Gerrymandering Now (Common Cause)](https://www.commoncause.org/actions/end-gerrymandering-now/#)\r\
+  \n\r\n[NC Coalition for Lobbying & Government Reform](http://www.nclobbyreform.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: "North Carolina is one of the most extremely gerrymandered states in the nation.\
+  \ Although current Congressional and legislative maps have been redrawn as a result\
+  \ of federal racial-gerrymandering lawsuits, a strong pro-Republican bias remains.\
+  \ Before 2010, the Congressional map had a strong pro-Democratic bias.\r\n\r\nA\
+  \ Supreme Court decision (<a href=\"https://www.scotusblog.com/2019/06/opinion-analysis-no-role-for-courts-in-partisan-gerrymandering/\"\
+  ><i>Rucho v. Common Cause</i></a>) left the current Congressional map in place and\
+  \ set a precedent against federal intervention in partisan gerrymandering. A case\
+  \ in state court (<a href=\"https://www.brennancenter.org/legal-work/common-cause-v-lewis\"\
+  ><i>Common Cause v. Lewis</i></a>), concerning state legislative districts, is now\
+  \ going to trial. The state Supreme Court is partisan and leans Democratic.\r\n\r\
+  \nIn the N.C. General Assembly, five different bills have been introduced to change\
+  \ the redistricting process. Two of these, HB 69 and HB 648, would set up an independent\
+  \ commission, public hearings, and prohibit partisan bias in maps."
+issues_markup_type: markdown
+last_updated: 2019-07-11 21:48:29.981886+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/NC
+legislative_control: Republican
+name: North Carolina
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "North Carolina's state legislative and congressional districts are drawn\
+  \ by the state legislature by ordinary statute. Unlike most states, the resulting\
+  \ plans are not subject to the governor's veto.\r\n\r\nIn addition to the federal\
+  \ requirements of one person, one vote and the Voting Rights Act, North Carolina\
+  \ law requires that state legislative and congressional districts be compact, contiguous,\
+  \ preserve political subdivisions, and preserve communities of interest. Using racial\
+  \ data is prohibited."
+process_markup_type: markdown
+status: 5

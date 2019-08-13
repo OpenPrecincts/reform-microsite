@@ -1,0 +1,45 @@
+abbreviation: LA
+actions: "In 2019, support state legislative candidates who favor fair districting.\r\
+  \n\r\n- The 2019 gubernatorial election will determine whether 2021 redistricting\
+  \ will occur under single-party or split-party control.\r\n\r\n- In 2021, use public\
+  \ comment to identify communities of interest. Use open data and free software to\
+  \ analyze draft maps for undue partisanship or ill treatment of minority groups.\r\
+  \n\r\n- After redistricting in 2021, be aware of the risk of racial gerrymandering\
+  \ - and a federal lawsuit."
+actions_markup_type: markdown
+contacts: "[Fair Districts Louisiana](https://fairdistrictsla.org/)\r\n\r\n[Common\
+  \ Cause Louisiana](https://www.commoncause.org/states/common-cause-louisiana/)\r\
+  \n\r\n[League of Women Voters of Louisiana](https://lwvofla.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: "In 2019, Democratic governor John Bel Edwards is up for re-election. If he\
+  \ is re-elected, both parties will have a say in redistricting.\r\n\r\nThe Voting\
+  \ Rights Act and the Constitution currently guarantee that minority populations\
+  \ should have fair opportunities to elect representatives. But when blacks are packed\
+  \ to be 50% or more of the voting-eligible population of a district, they may miss\
+  \ opportunities in neighboring districts. Fair districting therefore requires careful\
+  \ attention to how the lines are drawn."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.762265+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/LA
+legislative_control: Republican
+name: Louisiana
+pitfalls: In recent redistricting cycles, Louisiana was subject to Section 5 of the
+  Voting Rights Act because of a history of racial discrimination against minority
+  groups. In accordance with Section 5, Louisiana was required to receive preapproval
+  from either the Department of Justice or a federal court for any change to its redistricting
+  plans. This decade will be the first cycle without those protections. Observers
+  should closely monitor every step of the redistricting process to ensure that all
+  Louisianans are treated fairly.
+pitfalls_markup_type: markdown
+process: "Louisiana's state legislative and congressional districts are drawn by the\
+  \ state legislature by ordinary statute, and are subject to the governor's veto.\
+  \ The legislature can override vetoes with a two-thirds vote in each chamber.\r\n\
+  \r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Louisiana law requires that state legislative and congressional districts\
+  \ be contiguous, preserve political subdivisions, and preserve the cores of prior\
+  \ districts."
+process_markup_type: markdown
+status: 4

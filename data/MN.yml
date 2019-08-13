@@ -1,0 +1,36 @@
+abbreviation: MN
+actions: "In 2020, support state legislative candidates who favor fair districting.\r\
+  \n\r\n- Support the reform bill [HF 1605](https://www.revisor.mn.gov/bills/text.php?number=HF1605&version=0&session=ls91&session_year=2019&session_number=0&format=pdf),\
+  \ which [is backed by Common Cause Minnesota](http://www.startribune.com/supreme-court-reminds-voters-who-s-in-charge-on-redistricting/512276682/).\r\
+  \n\r\n- Contact Common Cause Minnesota to get involved.\r\n\r\n- Use the extensive\
+  \ public-comment process to stand up for your community of interest. \r\n\r\n- Obtain\
+  \ redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\
+  \ Use software tools such as Dave's Redistricting App to draw district maps showing\
+  \ either (a) what a fair map would look like, or (b) where the community you believe\
+  \ should be better represented is located."
+actions_markup_type: markdown
+contacts: "[Common Cause Minnesota](https://www.commoncause.org/minnesota/)\r\n\r\n\
+  [Clean Elections Minnesota](https://cleanelectionsmn.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: "Minnesota's entire legislature is up for election in 2020. \r\n\r\nMinnesota\
+  \ redistricting has an extensive public-comment process."
+issues_markup_type: markdown
+last_updated: 2019-07-09 00:13:41.514318+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/MN
+legislative_control: 'Senate: Republican; House: Democratic'
+name: Minnesota
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Minnesota's state legislative and congressional districts are drawn by the\
+  \ state legislature by ordinary statute, and are subject to the governor's veto.\
+  \ The legislature can override vetoes with a two-thirds vote in each chamber.\r\n\
+  \r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Minnesota law requires that state legislative and congressional districts\
+  \ be compact, contiguous, preserve political subdivisions, and preserve communities\
+  \ of interest. For state legislative districts only, intentionally favoring or disfavoring\
+  \ an incumbent is prohibited."
+process_markup_type: markdown
+status: 4

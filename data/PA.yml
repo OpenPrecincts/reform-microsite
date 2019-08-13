@@ -1,0 +1,36 @@
+abbreviation: PA
+actions: "Advocate for an independent redistricting commission. \r\n\r\n- If the current\
+  \ majority (Republican) passes into the minority, point out that such a commission\
+  \ will protect their interests.\r\n\r\n- In 2021, use public comment to identify\
+  \ communities of interest. Use open data and free software to analyze draft maps\
+  \ for undue partisanship or ill treatment of minority groups. Contribute your own\
+  \ maps!"
+actions_markup_type: markdown
+contacts: "[Fair Districts PA](http://www.lwvri.org/)\r\n\r\n[Draw the Lines PA](https://drawthelinespa.org/)\r\
+  \n\r\n[March on Harrisburg](https://www.mohpa.org/)\r\n\r\n[League of Women Voters\
+  \ of Pennsylvania](https://www.palwv.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Politician Commission
+gov_control: Democratic
+issues: "In 2018, the Pennsylvania Supreme Court ruled that the Congressional map\
+  \ was an illegal partisan gerrymander, based on the \"free and fair elections\"\
+  \ clause of its state constitution. This undid one of the most extreme gerrymanders\
+  \ in the nation.\r\n\r\nIn 2021, both Congressional and legislative line-drawing\
+  \ will be under the control of both major parties."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.721214+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/PA
+legislative_control: Republican
+name: Pennsylvania
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Pennsylvania's congressional lines are drawn by the state legislature by\
+  \ ordinary statute, and are subject to the governor's veto. The legislature can\
+  \ override vetoes with a two-thirds vote in each chamber.\r\n\r\nPennsylvania's\
+  \ state legislative lines are drawn by a commission of politicians.\r\n\r\nIn addition\
+  \ to the federal requirements of one person, one vote and the Voting Rights Act,\
+  \ Pennsylvania law requires that state legislative and congressional districts be\
+  \ compact, contiguous, and preserve political subdivisions."
+process_markup_type: markdown
+status: 2

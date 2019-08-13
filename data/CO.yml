@@ -1,0 +1,33 @@
+abbreviation: CO
+actions: "Participate in the commission's public comment process.\r\n\r\n- Obtain\
+  \ redistricting data from <a href=\"https://openprecincts.org/co/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located.\r\n\r\n- Submit these maps\
+  \ to the Commission as a public comment."
+actions_markup_type: markdown
+contacts: "[Government's \"Redistricting in Colorado\" Webpage](https://www.colorado.gov/cga-redistrict)\r\
+  \n\r\n[League of Women Voters of Colorado](http://lwvcolorado.org/lwv/)\r\n\r\n\
+  [Colorado Common Cause](https://www.commoncause.org/colorado/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Independent Redistricting Commission
+draws_state_lines: Independent Redistricting Commission
+gov_control: Democratic
+issues: Representation of communities of interest and minority groups.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.445572+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/CO
+legislative_control: Democratic
+name: Colorado
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Beginning in the 2020 redistricting cycle, Colorado's state legislative\
+  \ and congressional districts will be drawn by an independent redistricting commission.\r\
+  \n\r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Colorado law requires that state legislative and congressional districts\
+  \ be compact, contiguous, preserve political subdivisions, preserve communities\
+  \ of interest, and be drawn to promote competitiveness. Additionally, for legislative\
+  \ districts only, Intentionally favoring or disfavoring an incumbent, party, or\
+  \ candidate for office is prohibited."
+process_markup_type: markdown
+status: 1

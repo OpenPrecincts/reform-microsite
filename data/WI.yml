@@ -1,0 +1,34 @@
+abbreviation: WI
+actions: "In 2020, support state legislative candidates who favor fair districting.\r\
+  \n\r\n- Campaign to prevent supermajorities from forming.\r\n\r\n- In 2021, use\
+  \ public comment to identify communities of interest. Use <a href=\"https://openprecincts.org/\"\
+  >OpenPrecincts</a> and free software to analyze draft maps for undue partisanship\
+  \ or ill treatment of racial groups.  Contribute your own maps!"
+actions_markup_type: markdown
+contacts: "[The League of Women Voters of Wisconsin](https://my.lwv.org/wisconsin)\r\
+  \n\r\n[Wisconsin Voices](https://www.wisconsinvoices.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: "- Wisconsin is home to some of the most extreme partisan gerrymanders in\
+  \ the US. It was the subject of the 2018 case of Gill v. Whitford.\r\n\r\n- The\
+  \ Wisconsin Assembly currently lacks a supermajority. Split-party control over redistricting\
+  \ is possible in 2021 because of Democratic Governor Tony Evers.\r\n\r\n- State\
+  \ legislative elections will take place in 2020."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.726585+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/WI
+legislative_control: Republican
+name: Wisconsin
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Wisconsin's state legislative and congressional lines are drawn by the legislature\
+  \ via statute, and are subject to the governor's veto. The legislature can override\
+  \ vetoes with a two-thirds vote in each chamber.\r\n\r\nIn addition to the federal\
+  \ requirements of one person, one vote and the Voting Rights Act, Wisconsin law\
+  \ requires that state legislative districts be compact, contiguous, and preserve\
+  \ political subdivisions. There are no state law requirements for congressional\
+  \ districts."
+process_markup_type: markdown
+status: 4

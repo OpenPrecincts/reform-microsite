@@ -1,0 +1,35 @@
+abbreviation: CT
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- Urge the Secretary of State to improve the state's process for receiving public\
+  \ comment on maps. \r\n\r\n- Obtain redistricting data from <a href=\"https://openprecincts.org/\"\
+  >OpenPrecincts</a>.\r\n\r\n- Use software tools such as Dave's Redistricting App\
+  \ to draw district maps showing either (a) what a fair map would look like, or (b)\
+  \ where the community you believe should be better represented is located.\r\n\r\
+  \n- Submit these maps as public comment."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Connecticut](https://my.lwv.org/connecticut)\r\
+  \n\r\n[Common Cause Connecticut](https://www.commoncause.org/connecticut/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: Both chambers of the legislature and the governorship are controlled by Democrats.
+  If the party has supermajorities in the legislature when it is time to draw new
+  maps, there will be an increased risk of partisan gerrymandering.
+issues_markup_type: markdown
+last_updated: 2019-07-08 16:32:45.942101+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/CT
+legislative_control: Democratic
+name: Connecticut
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Connecticut's legislature has the primary responsibility of drawing state\
+  \ legislative and congressional district lines. A supermajority of two-thirds of\
+  \ each chamber is required to adopt a district plan. If the legislature fails to\
+  \ adopt a plan for any chamber, the lines will be drawn by a nine-member backup\
+  \ Commission.\r\n\r\nIn addition to the federal requirements of one person, one\
+  \ vote and the Voting Rights Act, Connecticut law requires that state legislative\
+  \ districts be contiguous and preserve political subdivisions. There are no state\
+  \ law requirements for drawing congressional districts."
+process_markup_type: markdown
+status: 0

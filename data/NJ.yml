@@ -1,0 +1,34 @@
+abbreviation: NJ
+actions: "Defend the existing system while advocating for further reforms.\r\n\r\n\
+  There's a <a href=\"https://www.insidernj.com/press-release/assembly-approves-zwicker-voting-precinct-transparency-act/\"\
+  >data-transparency bill (A. 4564)</a> to give everyone data to drive reform. Call\
+  \ your state Senator, ask for it to pass!\r\n\r\nAdvocate for a genuinely fair constitutional\
+  \ amendment that creates an independent redistricting commission."
+actions_markup_type: markdown
+contacts: "[Princeton Gerrymandering Project](http://gerrymander.princeton.edu/)\r\
+  \n\r\n[New Jersey Institute for Social Justice](https://www.njisj.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Partisan Commission
+draws_state_lines: Partisan Commission
+gov_control: Democratic
+issues: "New Jersey uses politician-appointed bipartisan commissions to draw both\
+  \ Congressional and legislative districts.\r\n\r\nIn 2018, a proposed Constitutional\
+  \ amendment was stopped by a combination of citizen-activists and analysts on the\
+  \ grounds that it would not stop gerrymandering and was intended to entrench the\
+  \ majority party (Democrats)."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.749773+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/NJ
+legislative_control: Democratic
+name: New Jersey
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "New Jersey's state legislative congressional districts are drawn by two\
+  \ different partisan commissions comprised of politicians. Each commission has equal\
+  \ numbers of Democrats and Republicans, with a tie-breaking chair selected by the\
+  \ other commissioners.\r\n\r\nIn addition to the federal requirements of one person,\
+  \ one vote and the Voting Rights Act, New Jersey law requires that state legislative\
+  \ districts be compact, contiguous, and preserve political subdivisions. There are\
+  \ no state law requirements for drawing congressional districts."
+process_markup_type: markdown
+status: 2

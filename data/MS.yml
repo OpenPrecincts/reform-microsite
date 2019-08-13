@@ -1,0 +1,42 @@
+abbreviation: MS
+actions: "Support gubernatorial and legislative candidates who favor fair districting.\
+  \ Electing a democratic governor in 2019 could prevent egregious gerrymandering\
+  \ by the legislature in 2021.\r\n\r\nSupport a ballot initiative to establish an\
+  \ independent redistricting process."
+actions_markup_type: markdown
+contacts: "[Common Cause Mississippi](https://www.commoncause.org/mississippi/)\r\n\
+  \r\n[League of Women Voters of Missippi](http://www.lwv-ms.org/)\r\n\r\n[Southern\
+  \ Echo](https://southernecho.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "- Because of the substantial black population, Mississippi is at risk of\
+  \ racial gerrymandering to reduce their representation.\r\n\r\n- Mississippi has\
+  \ a ballot initiative process.\r\n\r\n- The governorship is up for election in November\
+  \ 2019. A Republican win will result in continued single-party control over redistricting.\
+  \ A Democratic win will lead to bipartisan control. The race is considered close."
+issues_markup_type: markdown
+last_updated: 2019-07-13 16:52:38.875342+00:00
+latest_test_url: ''
+legislative_control: Republican
+name: Mississippi
+pitfalls: In recent redistricting cycles, Mississippi was subject to Section 5 of
+  the Voting Rights Act because of a history of racial discrimination against minority
+  groups. In accordance with Section 5, Mississippi was required to receive preapproval
+  from either the Department of Justice or a federal court for any change to its redistricting
+  plans. This decade will be the first cycle without those protections. Observers
+  should closely monitor every step of the redistricting process to ensure that all
+  Mississippians are treated fairly.
+pitfalls_markup_type: markdown
+process: "Mississippi's state legislative and congressional lines are drawn by the\
+  \ legislature by ordinary statute, and are subject to the governor's veto. The legislature\
+  \ can override vetoes with a two-thirds vote in each chamber. If the legislature\
+  \ fails to adopt a state legislative map, the task falls to a partisan backup commission\
+  \ currently controlled by Republicans.\r\n\r\nIn addition to the federal requirements\
+  \ of one person, one vote and the Voting Rights Act, Mississippi law requires that\
+  \ state legislative l districts be compact, contiguous, and preserve political subdivisions.\
+  \ Mississippi law requires that congressional districts be compact, contiguous,\
+  \ preserve political subdivisions, and preserve communities of interest."
+process_markup_type: markdown
+status: 4

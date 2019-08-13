@@ -1,0 +1,35 @@
+abbreviation: KY
+actions: In 2019, elect gubernatorial candidates who support redistricting reform.
+  The entire state legislature is up for re-election in 2020 as well. A majority-reform
+  coalition or split control of state power could check the worst gerrymandering impulses
+  in 2021.
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Kentucky](https://lwvky.org/)\r\n\r\n[Common\
+  \ Cause Kentucky](https://www.commoncause.org/states/common-cause-kentucky/)\r\n\
+  \r\n[Together Frankfort](http://www.togetherfrankfort.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "Kentucky presents a challenging case for advocates of fair districting. There\
+  \ is no public comment process, and redistricting is under single-party control.\r\
+  \n\r\nThe governorship is up for election in November 2019. The incumbent, Matt\
+  \ Bevin (R), has the lowest approval rating of all governors nationwide. But even\
+  \ if a Democrat wins, Republicans will be able to override a veto to a redistricting\
+  \ plan by a simple majority vote."
+issues_markup_type: markdown
+last_updated: 2019-07-14 14:23:04.584806+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/KY
+legislative_control: Republican
+name: Kentucky
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Kentucky's state legislative and congressional districts are drawn by the\
+  \ state legislature by ordinary statute, and are subject to the governor's veto.\
+  \ The legislature can override vetoes with a simple majority vote in each chamber.\r\
+  \n\r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Kentucky law requires that state legislative and congressional districts\
+  \ be contiguous and preserve political subdivisions. Additionally, the state's congressional\
+  \ districts must also preserve communities of interest."
+process_markup_type: markdown
+status: 4

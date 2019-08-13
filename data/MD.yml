@@ -1,0 +1,39 @@
+abbreviation: MD
+actions: "During redistricting, weigh in with your Delegate or state Senator. Emphasize\
+  \ the importance of a bipartisan plan that reflects all Marylanders' priorities,\
+  \ and of working with the governor.\r\n\r\nUse data and free software to weigh in\
+  \ on your community of interest."
+actions_markup_type: markdown
+contacts: "[Common Cause Maryland](https://www.commoncause.org/maryland/)\r\n\r\n\
+  [League of Women Voters of Maryland](https://www.lwvmd.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Governor and Legislature
+gov_control: Republican
+issues: "In 2011, Maryland Democrats drew a congressional gerrymander to take the\
+  \ Sixth Congressional District from Republicans. This was the subject of a high-profile\
+  \ test case before the Supreme Court, Benisek v. Lamone.\r\n\r\nIn 2021, redistricting\
+  \ will be done under split-party control. There will be no elections between now\
+  \ and redistricting. Democrats have legislative supermajorities, opening the possibility\
+  \ that they could override of a veto by Republican governor Larry Hogan. However,\
+  \ a switch of four Senate votes or fifteen votes in the House of Delegates would\
+  \ bring Democrats below supermajority threshold."
+issues_markup_type: markdown
+last_updated: 2019-07-10 16:05:15.208625+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/MD
+legislative_control: Democratic
+name: Maryland
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Maryland's state legislative districts are drawn by the governor. If the\
+  \ state legislature fails to adopt its own plans within 45 days of the release of\
+  \ the governor's maps, the governor's maps are adopted. If the legislature adopts\
+  \ its own maps, they are not subject to the governor's veto.\r\n\r\nMaryland's congressional\
+  \ districts are drawn by the state legislature by ordinary statute, and are subject\
+  \ to the governor's veto. The legislature can override vetoes with a three-fifths\
+  \ vote in each chamber.\r\n\r\nIn addition to the federal requirements of one person,\
+  \ one vote and the Voting Rights Act, Maryland law requires that state legislative\
+  \ districts be compact, contiguous, and preserve political subdivisions. There are\
+  \ no state law requirements for drawing congressional districts."
+process_markup_type: markdown
+status: 4

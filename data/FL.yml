@@ -1,0 +1,50 @@
+abbreviation: FL
+actions: "Support a ballot initiative to establish an independent redistricting process.\r\
+  \n\r\nIn 2021, use public comment to identify communities of interest. Use open\
+  \ data and free software to analyze draft maps for undue partisanship or ill treatment\
+  \ of minority groups.\r\n\r\nBring another initiative to Florida's ballot to create\
+  \ an independent citizens' redistricting commission. This will prevent gerrymanders\
+  \ from being committed in the first place."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Florida](https://www.lwvfl.org/)\r\n\r\n[Common\
+  \ Cause Florida](https://www.commoncause.org/florida/)\r\n\r\n[Florida Initiative\
+  \ for Electoral Reform](http://www.floridaelectoralreform.org/)\r\n\r\n[Florida\
+  \ Election Science Team (FEST)](https://electionscience.clas.ufl.edu/)\r\n\r\n[Public\
+  \ Mapping Project](http://www.publicmapping.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "The Voting Rights Act and the Constitution currently guarantee that minority\
+  \ populations should have fair opportunities to elect representatives. But when\
+  \ a community is packed to be 50% or more of the voting-eligible population of a\
+  \ district, it may miss opportunities in neighboring districts. Fair districting\
+  \ therefore requires careful attention to how the lines are drawn.\r\n\r\nDespite\
+  \ constitutional prohibitions, every branch of Florida's government is controlled\
+  \ by a single party. If that control persists into 2021, there will be an increased\
+  \ risk of partisan and racial gerrymandering. Although the state Supreme Court intervened\
+  \ to undo gerrymanders in the 2010s, a repeat of that may not occur because the\
+  \ court has taken a strong rightward turn."
+issues_markup_type: markdown
+last_updated: 2019-07-15 18:55:47.630486+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/FL
+legislative_control: Republican
+name: Florida
+pitfalls: In recent redistricting cycles, Florida was subject to Section 5 of the
+  Voting Rights Act because of a history of racial discrimination against minority
+  groups. In accordance with Section 5, Florida was required to receive pre-approval
+  from either the Department of Justice or a federal court for any change to its redistricting
+  plans. This decade will be the first cycle without those protections. Observers
+  should closely monitor every step of the redistricting process to ensure that all
+  Floridians are treated fairly.
+pitfalls_markup_type: markdown
+process: "Florida's congressional district lines are drawn by the legislature by ordinary\
+  \ statute, and are subject to the governor's veto. The legislature can override\
+  \ vetoes with a two-thirds vote in each chamber. Florida's state legislative lines\
+  \ are drawn by the legislature by joint resolution, which are not subject to the\
+  \ governor's veto. \r\n\r\nIn addition to the federal requirements of one person,\
+  \ one vote and the Voting Rights Act, Florida law requires that state legislative\
+  \ and congressional districts be compact, contiguous,  and preserve political subdivisions.\
+  \ Intentionally favoring or disfavoring an incumbent or political party is prohibited."
+process_markup_type: markdown
+status: 3

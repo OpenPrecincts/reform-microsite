@@ -1,0 +1,37 @@
+abbreviation: IN
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- In 2020, support state legislative candidates who favor fair districting.\r\
+  \n\r\n- In 2021, use <a href=\"https://openprecincts.org/\">OpenPrecincts</a> and\
+  \ free software to weigh in on communities of interest, as well as analyze proposed\
+  \ maps."
+actions_markup_type: markdown
+contacts: "[All IN For Democracy](https://www.allinfordemocracy.org/)\r\n\r\n[Indiana\
+  \ Local Government Redistricting](https://indianalocalredistricting.com/)\r\n\r\n\
+  [ACLU of Indiana](https://www.aclu-in.org/)\r\n\r\n[League of Women Voters of Indiana](http://www.lwvin.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: The governorship is up for election in November 2020. A Republican win will
+  lead to continued single-party control over redistricting. A Democratic win will
+  lead to bipartisan control.
+issues_markup_type: markdown
+last_updated: 2019-07-05 23:34:31.778690+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/IN
+legislative_control: Republican
+name: Indiana
+pitfalls: Both chambers of the legislature and the governorship are controlled by
+  Republicans. If the party maintains those majorities when it is time to draw new
+  maps, there will be an increased risk of partisan gerrymandering.
+pitfalls_markup_type: markdown
+process: "Indiana's state legislative and congressional districts are drawn by the\
+  \ state legislature by ordinary statute, and are subject to the governor's veto.\
+  \ The legislature can override vetoes with a simple majority in each chamber. If\
+  \ the state fails to adopt congressional districts, a backup commission is formed\
+  \ to draw them. There is no backup commission in the event of a failure to adopt\
+  \ legislative district lines.\r\n\r\nIn addition to the federal requirements of\
+  \ one person, one vote and the Voting Rights Act, Indiana law requires that state\
+  \ legislative districts be contiguous. There are no state law requirements for drawing\
+  \ congressional districts."
+process_markup_type: markdown
+status: 0

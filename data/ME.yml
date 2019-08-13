@@ -1,0 +1,32 @@
+abbreviation: ME
+actions: "Defend the advisory system while advocating for further reforms.\r\n\r\n\
+  - Stand up for your community of interest at public hearings.\r\n\r\n- Write to\
+  \ your local news organization in support of the advisory commission. Make noise!\r\
+  \n\r\n- Obtain redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located. \r\n\r\n- Submit maps to\
+  \ the Commission as a public comment."
+actions_markup_type: markdown
+contacts: '[League of Women Voters of Maine](http://www.lwvme.org/)'
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Democratic
+issues: "The success of this commission will depend on public input.\r\n\r\nMaine\
+  \ has a ballot initiative process."
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.087669+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/ME
+legislative_control: Democratic
+name: Maine
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Maine has an advisory commission that makes recommendations to the legislature,\
+  \ which can accept, modify, or reject the recommendations. Any map it adopts must\
+  \ be by a two-thirds vote in each chamber of the legislature.\r\n\r\nIn addition\
+  \ to the federal requirements of one person, one vote and the Voting Rights Act,\
+  \ Maine law requires that state legislative and congressional districts be compact,\
+  \ contiguous, and preserve political subdivisions."
+process_markup_type: markdown
+status: 2

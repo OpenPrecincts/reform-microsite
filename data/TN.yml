@@ -1,0 +1,35 @@
+abbreviation: TN
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- Obtain redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located.\r\n\r\n- Submit these maps\
+  \ to the Legislature as public comment. \r\n\r\n- If offenses are committed by the\
+  \ Legislature, state and federal lawsuits."
+actions_markup_type: markdown
+contacts: "[League of Women Voters of Tennessee](https://www.lwvtn.org/)\r\n\r\n[Think\
+  \ Tennessee](https://thinktennessee.org/state-of-our-state-policy-brief-redistricting/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: Tennessee has significant minority populations who are at risk of being underrepresented
+  following redistricting in 2021.
+issues_markup_type: markdown
+last_updated: 2019-07-05 23:38:14.700767+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/TN
+legislative_control: Republican
+name: Tennessee
+pitfalls: Both chambers of the legislature and the governorship are controlled by
+  Republicans. If the party maintains those majorities when it is time to draw new
+  maps, there will be an increased risk of partisan gerrymandering.
+pitfalls_markup_type: markdown
+process: "Tennessee's state legislative and congressional districts are drawn by the\
+  \ legislature by ordinary statute, and are subject to the governor's veto. The legislature\
+  \ can override vetoes with a simple majority vote in each chamber.\r\n\r\nIn addition\
+  \ to the federal requirements of one person, one vote and the Voting Rights Act,\
+  \ Tennessee law requires that state legislative districts be contiguous and preserve\
+  \ political subdivisions. There are no state law requirements for drawing congressional\
+  \ districts."
+process_markup_type: markdown
+status: 0

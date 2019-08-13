@@ -1,0 +1,36 @@
+abbreviation: NE
+actions: "Support a ballot initiative to establish an independent redistricting process.\
+  \ The deadline to submit signatures for a petition to appear on the 2020 ballot\
+  \ is in July 2020.\r\n\r\nIn 2021, use public comment to identify communities of\
+  \ interest. Use open data and free software to analyze draft maps for undue partisanship\
+  \ or ill treatment of minority groups. Contribute your own maps!"
+actions_markup_type: markdown
+contacts: "[Common Cause Nebraska](https://www.commoncause.org/nebraska/)\r\n\r\n\
+  [Civic Nebraska](https://www.civicnebraska.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Legislature
+draws_state_lines: Legislature
+gov_control: Republican
+issues: Nebraska has a ballot initiative process. Support a ballot initiative to establish
+  an independent redistricting process.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:01.223537+00:00
+latest_test_url: ''
+legislative_control: Republican
+name: Nebraska
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Nebraska has a one-chamber legislature that is nominally nonpartisan, but\
+  \ is in fact Republican. Its state legislative and congressional districts are drawn\
+  \ by the legislature by ordinary statute, and are subject to the governor's veto.\
+  \ The legislature can override vetoes with a three-fifths vote in each chamber.\r\
+  \n\r\nIn addition to the federal requirements of one person, one vote and the Voting\
+  \ Rights Act, Nebraska law requires that state legislative and congressional districts\
+  \ be compact, contiguous, preserve political subdivisions, and preserve the cores\
+  \ of prior districts. There are separate prohibitions for state legislative and\
+  \ congressional districts. State law prohibits state legislative districts from\
+  \ being drawn with the aid of partisan data, or to intentionally favor a party,\
+  \ group, or person. Meanwhile, state law prohibits congressional districts from\
+  \ being drawn with the aid of partisan data or to protect incumbents."
+process_markup_type: markdown
+status: 3

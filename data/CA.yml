@@ -1,0 +1,34 @@
+abbreviation: CA
+actions: "Participate in the commission's public comment process.\r\n\r\n- Obtain\
+  \ redistricting data from <a href=\"https://openprecincts.org/ca/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located.\r\n\r\n- Submit these maps\
+  \ to the Commission as a public comment."
+actions_markup_type: markdown
+contacts: "[California Citizens Commission](http://wedrawthelines.ca.gov)\r\n\r\n\
+  [California Local Redistricting Project](http://www.localredistricting.org/)\r\n\
+  \r\n[California Common Cause](https://www.commoncause.org/california/)\r\n\r\n[League\
+  \ of Women Voters of California](https://lwvc.org/)"
+contacts_markup_type: markdown
+draws_congressional_lines: Independent Redistricting Commission
+draws_state_lines: Independent Redistricting Commission
+gov_control: Democratic
+issues: Potential underrepresentation of communities of interest.
+issues_markup_type: markdown
+last_updated: 2019-07-13 23:44:25.193092+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/congress/2018/CA
+legislative_control: Democratic
+name: California
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "California's state legislative and congressional maps are drawn by an Independent\
+  \ Commission of citizens, selected through a rigorous process to reduce partisan\
+  \ influences.\r\n\r\nIn addition to the federal requirements of one person, one\
+  \ vote and the Voting Rights Act, California law requires that state legislative\
+  \ and congressional districts be compact, contiguous, preserve political subdivisions,\
+  \ and preserve communities of interest. Consideration of partisan data is prohibited\
+  \ except where required by federal law, as is favoring or disfavoring an incumbent,\
+  \ candidate for office, or political party."
+process_markup_type: markdown
+status: 1

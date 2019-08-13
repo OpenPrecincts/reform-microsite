@@ -1,0 +1,34 @@
+abbreviation: WY
+actions: "Use public input to persuade the legislature to draw fair districts.\r\n\
+  \r\n- Advocate for an independent citizens' redistricting commission.\r\n\r\n- Stand\
+  \ up for your community of interest at public hearings.\r\n\r\n- Write to your local\
+  \ news organization in support of the advisory commission. Make noise!\r\n\r\n-\
+  \ Obtain redistricting data from <a href=\"https://openprecincts.org/\">OpenPrecincts</a>.\r\
+  \n\r\n- Use software tools such as Dave's Redistricting App to draw district maps\
+  \ showing either (a) what a fair map would look like, or (b) where the community\
+  \ you believe should be better represented is located."
+actions_markup_type: markdown
+contacts: '- [League of Women Voters of Wyoming](https://wyominglwv.org/)'
+contacts_markup_type: markdown
+draws_congressional_lines: ''
+draws_state_lines: Legislature
+gov_control: Republican
+issues: "- Republicans currently have supermajorities in both chambers of the Wyoming\
+  \ legislature, meaning they could override a reformist governor's veto.\r\n\r\n\
+  - Wyoming has a ballot initiative process."
+issues_markup_type: markdown
+last_updated: 2019-07-05 23:38:59.559391+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/WY
+legislative_control: Republican
+name: Wyoming
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Wyoming's state legislative and congressional district lines are drawn by\
+  \ the legislature as an ordinary statute, and are subject to the Governor's veto.\
+  \ The legislature can override vetoes with a two-thirds vote in each chamber. It\
+  \ has only one at-large Congressional district.\r\n\r\nIn addition to the federal\
+  \ requirements of one person, one vote and the Voting Rights Act, Wyoming law requires\
+  \ that state legislative districts be compact, contiguous, preserve political subdivisions,\
+  \ and preserve communities of interest."
+process_markup_type: markdown
+status: 0

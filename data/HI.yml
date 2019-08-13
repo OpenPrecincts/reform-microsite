@@ -1,0 +1,31 @@
+abbreviation: HI
+actions: "Advocate for an independent redistricting commission. \r\n\r\n- Take advantage\
+  \ of Hawai'i's extensive public comment process.\r\n\r\n- Stand up for your community\
+  \ of interest at public hearings.\r\n\r\n- Obtain redistricting data from <a href=\"\
+  https://openprecincts.org/\">OpenPrecincts</a>.\r\n\r\n- Use software tools such\
+  \ as Dave's Redistricting App to draw district maps showing either (a) what a fair\
+  \ map would look like, or (b) where the community you believe should be better represented\
+  \ is located. \r\n\r\n- Submit maps to the Commission as a public comment."
+actions_markup_type: markdown
+contacts: "[Common Cause Hawaii](https://www.commoncause.org/hawaii/)\r\n\r\n[League\
+  \ of Women Voters of Hawaii](https://my.lwv.org/hawaii)"
+contacts_markup_type: markdown
+draws_congressional_lines: Politician Commission
+draws_state_lines: Politician Commission
+gov_control: Democratic
+issues: The success of this commission will depend on public input.
+issues_markup_type: markdown
+last_updated: 2019-07-08 20:38:00.561465+00:00
+latest_test_url: http://gerrymander.princeton.edu/tests/#/states/2018/HI
+legislative_control: Democratic
+name: Hawaii
+pitfalls: ''
+pitfalls_markup_type: markdown
+process: "Hawai'i has a partisan redistricting commission. Software may be available\
+  \ to submit plans, as it was in the previous cycle. Note that free software is being\
+  \ developed nationally.\r\n\r\nIn addition to the federal requirements of one person,\
+  \ one vote and the Voting Rights Act, Hawaii law requires that state legislative\
+  \ and congressional districts be compact, contiguous, and preserve communities of\
+  \ interest. Unduly favoring or disfavoring an a person or party is prohibited."
+process_markup_type: markdown
+status: 2
