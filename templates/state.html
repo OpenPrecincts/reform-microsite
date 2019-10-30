@@ -27,6 +27,10 @@
         {% if state.latest_test_url %}
             <li><a href="{{ state.latest_test_url }}">Tests of recent elections</a></li>
         {% endif %}
+        <li>Draw your own districts: {{ state.map_drawing_links }}</li>
+        {% if state.op_link %}
+             <li><a href="{{ state.op_link }}">OpenPrecincts data</a></li>
+        {% endif %}
         <li>Last updated: {{ state.last_updated|date:"F jS Y" }}</li>
     </ul>
 </section>

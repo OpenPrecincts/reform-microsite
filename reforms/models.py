@@ -12,6 +12,8 @@ class State(models.Model):
     legislative_control = models.CharField(max_length=300, blank=True)
     gov_control = models.CharField(max_length=300, blank=True)
     latest_test_url = models.URLField(blank=True)
+    map_drawing_links = models.CharField(max_length=300, blank = True)
+    op_link = models.URLField(blank=True)
     status = models.PositiveIntegerField(
         choices=(
             (0, "Legislative action/public input"),
