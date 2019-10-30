@@ -27,10 +27,6 @@
         {% if state.latest_test_url %}
             <li><a href="{{ state.latest_test_url }}">Tests of recent elections</a></li>
         {% endif %}
-        <li><b>Draw your own districts:</b> {{ state.map_drawing_links }}</li>
-        {% if state.op_link %}
-             <li><a href="{{ state.op_link }}">OpenPrecincts data</a></li>
-        {% endif %}
         <li>Last updated: {{ state.last_updated|date:"F jS Y" }}</li>
     </ul>
 </section>
@@ -56,6 +52,14 @@
     <h2 class="title is-2">Actions</h2>
     {{ state.actions }}
     {% if not state.actions.raw %} Once redistricting starts, use the public comment period! With data and free software, offer your communities of interest and analyze draft plans. {% endif %}
+
+    {% if state.map_drawing_links %}
+        Draw your own districts: {{ state.map_drawing_links }}
+    {% endif %}
+
+    {% if state.op_link %}
+         <a>href="{{ state.op_link }}">OpenPrecincts data</a>
+    {% endif %}
 </div>
 </section>
 
