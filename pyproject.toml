@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "voterroll-geocode"
-version = "3.4"
+name = "reform-microsite"
+version = "2.0"
 description = ""
 authors = ["James Turk <jpturk@princeton.edu>"]
 
