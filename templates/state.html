@@ -19,15 +19,15 @@
 <section id="summary-block">
     <ul>
         {% if state.draws_congressional_lines|length %}
-            <li>Congressional boundaries: Drawn by {{ state.draws_congressional_lines.lower }}.</li>
+            <li><b>Congressional boundaries:</b> Drawn by {{ state.draws_congressional_lines.lower }}.</li>
         {% endif %}
-        <li>State boundaries: Drawn by {{ state.draws_state_lines.lower }}.</li>
-        <li>Legislative Control: {{ state.legislative_control }}</li>
-        <li>Governor's Political Party: {{ state.gov_control }}</li>
+        <li><b>State boundaries:</b> Drawn by {{ state.draws_state_lines.lower }}.</li>
+        <li><b>Legislative Control:</b> {{ state.legislative_control }}</li>
+        <li><b>Governor's Political Party:</b> {{ state.gov_control }}</li>
         {% if state.latest_test_url %}
             <li><a href="{{ state.latest_test_url }}">Tests of recent elections</a></li>
         {% endif %}
-        <li>Draw your own districts: {{ state.map_drawing_links }}</li>
+        <li><b>Draw your own districts:</b> {{ state.map_drawing_links }}</li>
         {% if state.op_link %}
              <li><a href="{{ state.op_link }}">OpenPrecincts data</a></li>
         {% endif %}
