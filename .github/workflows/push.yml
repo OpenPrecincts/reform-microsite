@@ -1,15 +1,14 @@
-on: push
+on: 
+  push:
+    branches:
+    - master
 name: Deploy On Push
 jobs:
   deployMaster:
     name: Deploy Master
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Only On Master
-      uses: actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da
-      with:
-        args: branch master
+    - uses: actions/checkout@v1
     - name: ./ansible-action
       uses: ./ansible-action
       env:
