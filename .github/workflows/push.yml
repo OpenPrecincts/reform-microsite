@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Only On Master
-      uses: actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da
+      uses: actions/bin/filter@master
       with:
         args: branch master
     - name: ./ansible-action
