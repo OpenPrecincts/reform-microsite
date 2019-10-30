@@ -1,2 +1,3 @@
+*.pyc
 reform.retry
 templates/basic
