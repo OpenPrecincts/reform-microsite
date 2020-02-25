@@ -2,6 +2,7 @@ from django.contrib.syndication.views import Feed
 from django.utils.feedgenerator import Rss201rev2Feed
 from .views import gen_state_data
 from .models import State
+from string import Template
 
 class ExtendedRSSFeed(Rss201rev2Feed):
     def add_item_elements(self, handler, item):
@@ -18,6 +19,11 @@ class ExtendedRSSFeed(Rss201rev2Feed):
         handler.addQuickElement(u"history_rendered", item['history_rendered'])
         handler.addQuickElement(u"contacts", item['issues'])
         handler.addQuickElement(u"contacts_rendered", item['contacts_rendered'])
+        handler.addQuickElement(u"congressional_boundaries", item['congressional_boundaries'])
+        handler.addQuickElement(u"state_boundaries", item['state_boundaries'])
+        handler.addQuickElement(u"legislative_control", item['legislative_control'])
+        handler.addQuickElement(u"governor_party", item['governor_party'])
+        handler.addQuickElement(u"last_updated", item['last_updated'])
         
 
 
@@ -68,8 +74,8 @@ class StateFeed(Feed):
     # def item_description(self, item):
     #     return 
     
-    def item_extra_kwargs(self, item):
-        return {
+    def item_extra_kwargs(self, item):       
+        output = {
             'actions_rendered': item['_actions_rendered'],
             'actions': item['actions'],
             'process': item['process'],
@@ -85,6 +91,21 @@ class StateFeed(Feed):
             'contacts': item['contacts'],
             'contacts_rendered': item['_contacts_rendered'],
         }
+        if item['draws_congressional_lines']:
+            output['congressional_boundaries'] = Template("Drawn by $drawnBy").safe_substitute(drawnBy=item['draws_congressional_lines'].lower())
+        else:
+            output['congressional_boundaries'] = None
+
+        if item['draws_state_lines']:
+            output['state_boundaries'] = Template("Drawn by $drawnBy").safe_substitute(drawnBy=item['draws_state_lines'].lower())
+        else:
+            output['state_boundaries'] = None
+
+        output['legislative_control'] = item['legislative_control']
+        output['governor_party'] = item['gov_control']
+        output['last_updated'] = item['last_updated'].strftime("%b %d %Y")
+
+        return output
 
     def item_link(self, item):
         return '/reforms2019/'+item["abbreviation"]
