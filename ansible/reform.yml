@@ -6,7 +6,7 @@
   roles:
     - role: django-uwsgi-nginx
       vars:
-        - git_repository: https://github.com/jamesturk/reform-microsite.git
+        - git_repository: https://github.com/OpenPrecincts/reform-microsite.git
           user: reform
           directory: reform
           wsgi_module: web.wsgi
